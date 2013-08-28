@@ -170,11 +170,31 @@ För att lyckas med detta behöver vi en struktur för våra sidor.
 Sidorna presentation.html och index.html har du förhoppningsvis redan gjort i och med de första uppgifterna. 
 
 Skapa nu html-dokumenten enligt strukturen ovan så att du har följande struktur:
+![Föreslagen filstruktur][lankstruktur]
 
+Som du ser kan du redan nu skapa katalogerna "pics" och "videos" som kommer att användas i senare uppgifter.
+### Intern länkstrukturDu ska nu bygga upp sajtens länkstruktur. För att göra sidan så användarvänlig som möjligt ska vi se till att samtliga sidor i sajten länkar till varandra.Exempel:Användaren surfar in till sidan index.html. Denna sida innehåller länkar till "presentation.html", "laborationer.html", "kontakt.html". Användaren klickar på länken till sidan "presentation.html" och tas till sidan. Väl där ser användaren samma meny som på startsidan. Se bilder nedan.Bygg nu upp länkstrukturen på dina sidor enligt beskrivningen ovan. Länkarn ska ligga i en osorterad lista.Menyn ska se likadan ut oavsett vilken sida man besöker. På exempelsidorna har även en "tagline" lagts till under huvudrubriken. 
+![Exempel på utseende][links]
 
+**Gör en commit till git.**
+
+### LaborationsportalDu ska nu bygga upp en struktur för presentation av dina laborationer. Detta gör du i filen laborationer.html. På sikt ska flera kurser kunna samsas på denna sida. Du behöver alltså tänka på detta när du bestämmer dina rubriknivåer. När du skriver denna sida ska du få fortsatt träning på att använda olika listor. Listorna ul, ol och dl ska samtliga användas på sidan. Nedan ser du ett exempel på hur du kan lägga upp din sida:![Exempel på utseende][labbportal]
+
+Den osorterade listan direkt under kursrubriken ska ha ankarlänkar direkt ner till respektive laborationsrubrik. Alltså: Om man klickar på "Laboration 2" så ska webbläsaren 
+scrolla ner till rubriken "Laboration 2". 
+
+Lägg till frågorna och svaren på frågorna från 1.4.
+
+**Gör en commit till git**### Externa länkarDu ska nu modifiera din sida presentation.html något. Du ska här lägga in minst tre länkar till externa webbplatser. Detta kan vara länkar till bloggar du följer, företag du arbetat på och så vidare. Lägg till länkarna på ett lämpligt sätt.**Gör en commit till git**
 
 [rubriker]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/1.png
 
 [filtrad]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/filetree.png
 
-[lankstruktur]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/linkstrukture.png
+[lankstruktur]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/linkstructure.png
+
+[lankstruktur2]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/linkstructure2.png
+
+[lankar]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/links.png
+
+[labbportal]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/laborationsportal.png
