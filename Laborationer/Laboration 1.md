@@ -170,7 +170,7 @@ För att lyckas med detta behöver vi en struktur för våra sidor.
 Sidorna presentation.html och index.html har du förhoppningsvis redan gjort i och med de första uppgifterna. 
 
 Skapa nu html-dokumenten enligt strukturen ovan så att du har följande struktur:
-![Föreslagen filstruktur][lankstruktur]
+![Föreslagen filstruktur][lankstruktur2]
 
 Som du ser kan du redan nu skapa katalogerna "pics" och "videos" som kommer att användas i senare uppgifter.
 ### Intern länkstrukturDu ska nu bygga upp sajtens länkstruktur. För att göra sidan så användarvänlig som möjligt ska vi se till att samtliga sidor i sajten länkar till varandra.Exempel:Användaren surfar in till sidan index.html. Denna sida innehåller länkar till "presentation.html", "laborationer.html", "kontakt.html". Användaren klickar på länken till sidan "presentation.html" och tas till sidan. Väl där ser användaren samma meny som på startsidan. Se bilder nedan.Bygg nu upp länkstrukturen på dina sidor enligt beskrivningen ovan. Länkarn ska ligga i en osorterad lista.Menyn ska se likadan ut oavsett vilken sida man besöker. På exempelsidorna har även en "tagline" lagts till under huvudrubriken. 
