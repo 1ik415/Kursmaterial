@@ -229,7 +229,7 @@ Lägg till frågorna och svaren på frågorna från 1.4.
 
 ## Uppgift 1.9 - FormulärSom sista steg i denna laboration ska vi nu ta oss an sidan "kontakt.html".Några krav på formuläret:* Metoden som ska användas är post* Ett textfält finns* En grupp med radioknappar eller kryssrutor används * En dropdownlista finns * En submit-knapp finns* Fieldsets och tillhörande legend ska användas för att strukturera upp formuläret.![][form] För att testa formuläret så skickar du formulärdatan till sidan:[http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php](http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php)Ovanstående sida skriver automatiskt ut de namn-/värdepar som skickats från formuläret. Detta fungerar bara om du använder rätt metod, det vill säga post.*(Om du själv har möjlighet kan du skicka formulärdatan till ett eget  serversideskript som läser ut datan och presenterar den.)***Gör en commit till git samt en push mot GitHub**
 
-### Postludium
+## Postludium
 Du har nu genomfört laboration 1. För att du senare enkelt ska kunna gå tillbaka och se hur koden såg ut när genomfört laboration 1 ska du göra något som kallas för en tag eller release. 
 
 1. Logga in på GitHub och gå till repositoriet för laborationen.
