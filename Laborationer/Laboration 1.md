@@ -28,7 +28,7 @@ Efter (minst) varje uppgift i denna handledning ska du göra en commit till ditt
 Laborationen ska genomföras enskilt. Du får givetvis fråga klasskamrater om hjälp men du ska skriva din egen kod och kunna svara för varför du skrivit din kod på det sätt du gjort. Vid fuskmisstanke lämnas misstankar samt berörda dokument över till universitetets disciplinnämnd.
 
 ## Föreslå ändringar
-Denna handledning ligger på GitHub (https://github.com/1ik415/Kursmaterial/blob/master/Laborationer/Laboration%201.md) om du vill föreslå ändringar eller hålla koll på vad de senaste uppdateringarna innebar.
+Denna handledning ligger på GitHub [](https://github.com/1ik415/Kursmaterial/blob/master/Laborationer/Laboration%201.md) om du vill föreslå ändringar eller hålla koll på vad de senaste uppdateringarna innebar.
  
 ## Uppgift 1.1 – Utvecklingsmiljön
 Du ska i denna uppgift komma igång med den utvecklingsmiljö som du ska använda i kursen. 
