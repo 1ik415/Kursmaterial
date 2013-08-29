@@ -219,6 +219,34 @@ Lägg till frågorna och svaren på frågorna från 1.4.
 
 ## Uppgift 1.6 - BilderDu ska nu testa på att infoga bilder på din sajt. Du ska lägga till bilder i följande bildformat:* jpeg* png* svg### Presentation, jpegPå din presentation ska du nu på lämpligt ställe lägga till ett fotografi, eller motsvarande, på dig. Vill du inte lägga upp en bild på dig själv går det bra med ett annat fotografi, så länge som du själv har rättigheterna till fotot eller använder icke upphovsrättsskyddat material.Fotot som du ska länka in ska du lägga i katalogen:*pics*som du får skapa själv. (Se 1.5)Bilden ska länkas in med en **relativ sökväg**.När det är gjort ska du ifrån din laborationsportal göra en **ankarlänk** som tar dig till sidan "presentation.html" och skrollar användarens webbläsare till bilden.### Startsidan, pngPNG-formatet lämpar sig utmärkt för bilder med statisk grafik så som logotyper, ikoner etc. Du ska nu göra en logotyp till din sajt. Denna logotyp ska du placera på förstasidan, index.html. Du är fri att välja vilket grafiskt verktyg som du önskar. Exempelvis lämpar sig det webbaserade http://pixlr.com utmärkt om du vill göra enklare bildbehandling. Inget krav på konstnärlig förmåga finns.Även denna bild placeras i katalogen *pics* och länkas in med en relativ länk.När du är färdig så ska du ifrån din laborationsportal länka direkt till bildfilen, alltså inte till startsidan.### Laborationssidan, svgDu ska även prova på att skapa en bild med hjälp av vektorgrafik. Använd exempelvis det webbaserade verktyget http://code.google.com/p/svg-edit/Skapa en vektorbaserad bild och länka in i ett nytt blogginlägg på din startsida. Länka till blogginlägget från "Uppgift 1.6" på laborationssidan.**Gör en commit till git**
 
+## Uppgift 1.7 – VideoDet enklaste sättet att tillhandahålla video till användarna av din sajt idag är att använda externa tjänster som Vimeo eller YouTube. Men i och med HTML5 och video-taggens intåg kommer det bli enklare att infoga video på sajter utan att vara beroende av en tredje part. I denna uppgift ska du få testa på att länka in en video med hjälp av video-taggen. På sajten http://www.bigbuckbunny.org finns videofiler i olika format som du kan ladda ner för att testa i denna uppgift. Ge dock en länk tillbaka till Big Buck Bunny som tack för lånet (Se CC-licensen). Det går även bra att ta egna videoklipp om du så önskar.Skapa nu ett nytt blogginlägg på startsidan och lägg där upp filmen.* Det ska gå att starta stoppa filmen med hjälp av inbyggda kontrollerna* Filmen ska inte starta automatiskt när man går in på sidan 
+![Resultat][video]
+Som vanligt och i samtliga kommande uppgifter länkar du sedan till detta inlägg från laborationssidan.**Gör en commit till git**
+
+## Uppgift 1.8 – TabellerUppgiften går ut på att konstruera en tabell innehållande ditt studieresultat under kursen. Tabellen placeras lämpligtvis på sidan laborationer.html efter ankarlänkarna under rubriken "Webbteknisk introduktion".Här ser du hur tabellen ska se ut:![][table]Observera att nedre raden enbart har en cell samt att exempelvis cellen "2" under rubriken "Laboration" spänner över samtliga uppgifter för den laborationen.* thead, tbody och tfoot ska användas på korrekt sätt.Du får använda attributet `border='1'` på tabelltaggen för att få stödlinjer kring tabellen. Detta kan vi sedan byta ut mot stilegenskaper med css. 
+
+**Gör en commit till git**
+
+## Uppgift 1.9 - FormulärSom sista steg i denna laboration ska vi nu ta oss an sidan "kontakt.html".Några krav på formuläret:* Metoden som ska användas är post* Ett textfält finns* En grupp med radioknappar eller kryssrutor används * En dropdownlista finns * En submit-knapp finns* Fieldsets och tillhörande legend ska användas för att strukturera upp formuläret.![][form] För att testa formuläret så skickar du formulärdatan till sidan:[http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php](http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php)Ovanstående sida skriver automatiskt ut de namn-/värdepar som skickats från formuläret. Detta fungerar bara om du använder rätt metod, det vill säga post.*(Om du själv har möjlighet kan du skicka formulärdatan till ett eget  serversideskript som läser ut datan och presenterar den.)***Gör en commit till git samt en push mot GitHub**
+
+### Postludium
+Du har nu genomfört laboration 1. För att du senare enkelt ska kunna gå tillbaka och se hur koden såg ut när genomfört laboration 1 ska du göra något som kallas för en tag eller release. 
+
+1. Logga in på GitHub och gå till repositoriet för laborationen.
+2. Kontrollera att dina senaste ändringar finns tillgängliga på GitHub.
+3. Klicka på "releases" ovanför fillistningen.
+4. Välj att skapa en ny release.
+5. Se till att "Tag version" blir `l01` (lars, nolla, etta)
+Titel och description fyller du i som du själv vill.
+![GitHub Release][github-release]
+6. Publicera releasen
+
+Se till att i fortsättningen göra ovanstående för samtliga laborationer (tag: l02, l03 etc.) när de är genomförda. Du kan nu fortsätta att arbete på laboration 2 och du har alltid en genväg för att gå tillbaka och se hur laboration 1 såg ut innan förändringarna som laboration 2 innebär.
+Kursledningen kan också på ett enkelt sätt överblicka klassens progression på de olika laborationerna.
+
+Var så god att påbörja arbetet med laboration 2!
+
+
 [rubriker]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/1.png
 
 [filtrad]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/filetree.png
@@ -231,6 +259,12 @@ Lägg till frågorna och svaren på frågorna från 1.4.
 
 [labbportal]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/laborationsportal.png
 
+[video]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/video.png
+
+[table]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/table.png
+
+[form]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/form.png
+
 [github-add-repro]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-add-repro.png
 
 [github-add-user]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-add-user.png
@@ -238,5 +272,7 @@ Lägg till frågorna och svaren på frågorna från 1.4.
 [github-add-ghpages]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-add-ghpages.png
 
 [github-default-branch]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-default-branch.png
+
+[github-release]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-release.png
 
 [c9-login]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/c9-login.png
