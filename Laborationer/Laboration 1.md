@@ -97,14 +97,14 @@ i terminalen som en indikation på att du är i rätt gren.
 Vi ska nu göra en "commit" samt synka våra ändringar till GitHub. 
 
 1. Skriv: `git add .` i terminalen och tryck enter. *Eventuellt nytillagda filer läggs nu till till versionshanteringen. Även några filer från Cloud9s konfiguration läggs till men vi bryr oss inte om det i nuläget.*
-2. Gör en commit genom att exekvera (*skriva och trycka enter*) kommandot: `git commit -m 'Min första commit!'`
+2. Gör en commit genom att exekvera (*skriva och trycka enter*) kommandot: `git commit -am 'Min första commit!'`
 3. Synkronisera med GitHub-repositoriet genom att exekvera kommandot:
 `git push`
 
 Nu kan du gå till GitHub och kontrollera att alla ändringar du gjort i din readme-fil också finns på GitHub. 
 Steg 1 till 3 ovan ska du göra efter varje uppgift i denna handledning. Det gör att du får spårbarhet i din kod och enkelt kan gå tillbaka till tidigare versioner av din kod. Du kommer att lära dig mer om versionshantering i kommande kurser, men detta räcker för att komma igång.
 
-Du är nu redo att köra igång och koda! 
+Du är nu redo att köra igång och koda! För att testa och se resultatet av ditt kodande så kan du klicka på "Preview" i Cloud9. Då ser du förändringar så fort du sparar ett dokument.
 
  
 ## Uppgift 1.2 – Ett första dokument
@@ -122,57 +122,38 @@ Du är fri att själv forma innehållet men det vore intressant att bland annat 
 * Vad fick dig att söka utbildningen?
 * Tankar inför framtiden?
 
-Denna sida döper du till ”presentation.html”. Sidan ska placeras i en katalog som du döper till ”pages” och som du lägger i ditt lokala repositorie (Den katalog som du skapade i uppgift 1). 
+Denna sida döper du till "presentation.html". Sidan ska placeras i en katalog som du döper till "pages". 
  
-I presentation.html ser du nu till att skapa ett html-dokument med de delar som detta innebär. 
+I presentation.html ser du nu till att skriva den html-kod som behövs för att uppnå nedanstående krav.
 
 För att uppgiften ska vara godkänd ska ditt dokument minst innehålla följande:
 
+* En korrekt html5-struktur
 * Två rubriknivåer
 * Text separerad med hjälp av paragraftaggar. 
 * Samtliga listor. (ol, ul, dl)
 * Minst en lista som ligger inuti en annan lista.
 * Minst en kommentar
-* Texten ”Ansvarig för materialet på denna sida är” följt av ditt namn.
 
 När du testat sidan och känner dig klar så ska du:
 
-1. Göra en commit i git.
-2. Göra en synkning mot GitHub.
-3. Publicera ditt dokument. 
-### Publicera ditt dokument
-#### Publicera ditt dokument på p:
-Om du följt instruktionerna och lagt filen presentation.html i katalogen pages som ligger i katalogen www, så når du denna fil genom webbadressen:
-http://homepage.lnu.se/student/xx222yy/pages/presentation.html
-där xx222yy byts ut mot ditt användarnamn.
-
-Om det redan finns filer i din www-katalog så kan du radera dessa (speciellt default.htm)
-
-#### Publicera ditt dokument på GitHub-pages
-#### Publicera ditt dokument på valfritt webbhotell
-Du kan välja att publicera dina dokument på valfritt webbhotell. Du följer du instruktionerna för detta specifika webbhotell.
-
-
+1. Göra en commit i git. (`git add .` följt av `git commit -am 'Meddelande'`)
+2. Göra en synkning mot GitHub. (`git push`)
 
 4. Testa att validera ditt dokument. 
 
 ### Validera
 Du validerar ditt dokument genom att skriva in adressen till dokumentet i validatorn på http://validator.w3.org/
 
-Ta till vana att validera ditt dokument ofta, speciellt om du inte kodat speciellt mycket HTML tidigare. Då kan du fånga upp fel tidigt, innan din kodbas blir stor. Det gör det lättare för dig att fånga upp felen. Ju mer van vid HTML du blir, desto mer sällan behöver du validera.
+Adressen till ditt dokument hittar du i "Preview-fönstret" i Cloud9. 
+
+Ta till vana att validera ditt dokument ofta, speciellt om du inte kodat speciellt mycket HTML tidigare. Då kan du fånga upp fel tidigt, innan din kodbas blir stor. Det gör det lättare för dig att fånga upp och förstå felen. Ju mer van vid HTML du blir, desto mer sällan behöver du validera.
 
  
 ## Uppgift 1.3 – Startsidan
 Du ska nu göra din startsida som kommer att fungera som en form av blogg för att presentera uppgifter som du gör i kursen. 
 
 Skapa dig en ny html-sida som du döper till index.html och som du publicerar direkt i root-katalogen på ditt lokala repositorie. 
-
-Detta gör att webbservern nu kommer att servera filen index.html om man skriver in adressen:
-http://homepage.lnu.se/student/xx222yy/
-om du publicerat på P:/www, eller:
-http://xx222yy.github.io/Laborationer/
-om du publicerat på GitHub-pages. 
-_(xx222yy byts ut mot ditt användarnamn)_
 
 Skapa nu en lämplig rubrik för din sajt och skriv ett första blogginlägg, komplett med rubrik och stycken. Tänk redan nu på att du kommer att skapa flera inlägg under kursens gång.
 
@@ -182,22 +163,13 @@ Ett exempel på hur detta kan se ut:
 Observera! Tänk inte i detta skede alls på presentationsdetaljer. Kanske vill man ändra färg på texten, ändra typsnitt, ha kursiv text etc. **Detta är inget vi ska bry oss om i detta skede.** Det viktiga nu är att vår kod är så semantisk och välskriven som möjligt.
 
 **Validera nu och gör en commit till git.**
- 
-### Vanliga problem så här långt:
-**P:** Filen heter presentation.html och ligger i katalogen ”pages” i  www-katalogen på p: men jag kommer inte åt den genom att skriva in adressen ovan.
-**L:** Det är mycket möjligt att du råkat döpa filen till presentation.html.html om du sitter i Windows eftersom Windows normalt sett döljer filtilläggen. Kontrollera därför noga att du inte har döpt filen till .html.html, alternativt .html.txt
-**L:** Har du skapat din www-katalog själv för att den inte fanns från början? Kontakta i så fall kursledningen. Katalogen www kan man inte skapa själv.
-
-**P:** Svenska tecken, ÅÄÖ och andra specialtecken ser lustiga ut.
-**L:** Du använder inte samma teckenuppsättning på ditt dokument som du angivit i meta-taggens charset. Se demo på kurswebben för lösning.
-
 
 ### Vanliga frågor:
 **F:** Måste jag använda de filnamn som används ovan? 
-**S:** Ja. Det finns en poäng med att vi döpt filerna som vi gjort och lagt dem i underkataloger. 
+**S:** Ja. Det finns en poäng med att vi döpt filerna som vi gjort och lagt dem i underkataloger. Det är ok att exempelvis döpa filer till engelska namn och lägga dem i andra underkataloger, men du ska ha en katalogstruktur.
 
 **F:** Får jag redan nu använda andra taggar eller css? 
-**S:** Ja, så länge som resten av kraven är uppfyllda är detta okej.
+**S:** Ja, så länge som resten av kraven är uppfyllda är detta okej. De taggar som du eventuellt lägger till ska användas på korrekt sätt!
 
 ## Uppgift 1.4 – Absoluta/Relativa sökvägar
 Det är nu dags att bekanta sig med sökvägar och länkar.
