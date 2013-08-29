@@ -92,7 +92,19 @@ Det bör nu stå:
 
 i terminalen som en indikation på att du är i rätt gren.
 
- 
+Öppna nu filen "README.md" och gör någon förändring i denna och spara dina ändringar.
+
+Vi ska nu göra en "commit" samt synka våra ändringar till GitHub. 
+
+1. Skriv: `git add .` i terminalen och tryck enter. *Eventuellt nytillagda filer läggs nu till till versionshanteringen. Även några filer från Cloud9s konfiguration läggs till men vi bryr oss inte om det i nuläget.*
+2. Gör en commit genom att exekvera (*skriva och trycka enter*) kommandot: `git commit -m 'Min första commit!'`
+3. Synkronisera med GitHub-repositoriet genom att exekvera kommandot:
+`git push`
+
+Nu kan du gå till GitHub och kontrollera att alla ändringar du gjort i din readme-fil också finns på GitHub. 
+Steg 1 till 3 ovan ska du göra efter varje uppgift i denna handledning. Det gör att du får spårbarhet i din kod och enkelt kan gå tillbaka till tidigare versioner av din kod. Du kommer att lära dig mer om versionshantering i kommande kurser, men detta räcker för att komma igång.
+
+Du är nu redo att köra igång och koda! 
 
  
 ## Uppgift 1.2 – Ett första dokument
