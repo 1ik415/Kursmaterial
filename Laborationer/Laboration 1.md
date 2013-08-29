@@ -40,11 +40,13 @@ Följande krav ställer kursen på utvecklingsmiljön:
 * GitHub-pages ska användas för att publicera den senaste versionen av dina laborationer.
 
 Följande miljö rekommenderas från kursledningen men är inget krav:
+
 * Cloud9 används som IDE (Integrerad Utvecklingsmiljö)
 * Ditt GitHub-repositorie är publikt eller privat.
 
 ### Sätta upp utvecklingsmiljön
 Det första vi ska göra är att komma igång med git och sätta upp vår utvecklingsmiljö.
+
 1. Börja med att skapa ett konto på GitHub, gärna med din "skol-epostadress" och samma användarnamn som du har på ditt skolkonto. *Det går bra att använda ett befintligt GitHub-konto om du vill. Men se begränsningar nedan.*
 2. Ansök gärna om att få ditt GitHub-konto kopplat till en "utbilningslicens". *Detta kräver att ditt konto har skolans e-postadress.*
 3. Skapa ett nytt repositorie, publikt eller privat. Döp det exempelvis till "1ik415-laborationer". *Om ditt användarnamn på GitHub är skilt ifrån ditt användarnamn på skolan behöver du också inkludera användarnamnet i repositorienamnet. Exempelvis: "1ik415-xx222yy-laborationer".*
@@ -69,6 +71,7 @@ Under kursens laborationer kommer du steg för steg att bygga upp en blogg, elle
 
 Det första steget vi ska ta nu är att skapa ett första html-dokument som kommer att innehålla en presentation över dig, vad du gjort tidigare etc. 
 Du är fri att själv forma innehållet men det vore intressant att bland annat få veta följande:
+
 * Intressen
 * Familj
 * Vad du är bra respektive mindre bra på
@@ -83,6 +86,7 @@ Denna sida döper du till ”presentation.html”. Sidan ska placeras i en katal
 I presentation.html ser du nu till att skapa ett html-dokument med de delar som detta innebär. 
 
 För att uppgiften ska vara godkänd ska ditt dokument minst innehålla följande:
+
 * Två rubriknivåer
 * Text separerad med hjälp av paragraftaggar. 
 * Samtliga listor. (ol, ul, dl)
@@ -91,6 +95,7 @@ För att uppgiften ska vara godkänd ska ditt dokument minst innehålla följand
 * Texten ”Ansvarig för materialet på denna sida är” följt av ditt namn.
 
 När du testat sidan och känner dig klar så ska du:
+
 1. Göra en commit i git.
 2. Göra en synkning mot GitHub.
 3. Publicera ditt dokument. 
