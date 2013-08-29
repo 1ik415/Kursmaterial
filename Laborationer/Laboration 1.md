@@ -48,31 +48,20 @@ Det första vi ska göra är att komma igång med git och sätta upp vår utveck
 2. Ansök gärna om att få ditt GitHub-konto kopplat till en "utbilningslicens". *Detta kräver att ditt konto har skolans e-postadress.*
 3. Skapa ett nytt repositorie, publikt eller privat. Döp det exempelvis till "1ik415-laborationer". *Om ditt användarnamn på GitHub är skilt ifrån ditt användarnamn på skolan behöver du också inkludera användarnamnet i repositorienamnet. Exempelvis: "1ik415-xx222yy-laborationer".*
 ![Skapa nytt repro, GitHub][github-add-repro]  
-4. 
+4. Lägg till användaren "1ik415" som medarbetare på repositoriet. 
+Klicka in på repositoriet -> Settings -> Collaboraters
+![Lägg till medarbetare, GitHub][github-add-user]
+5. Skapa en README.md-fil i ditt repositorie i vilken du skriver lite kort om vad syftet med repositoriet är.
 
-1. Skapa gh-pages-branch.
-Vänta lite i klienten och byt sedan till gh-branchen. 
+Du har nu skapat ett repositorie som kursledningen kan komma åt och titta i oavsett om det är publikt eller privat. Nästa steg är att skapa en "branch" som heter "gh-pages". Detta gör att dina HTML-filer kommer att publiceras via GitHub-pages.
 
-*Vi ska börja med att bekanta oss med laborationsmiljön.*
+1. Gå in på ditt repositorie och klicka på knappen "branch: master". Lägg till "gh-pages".
+![Lägg till branch, GitHub][github-add-ghpages] 
+2. Klicka på "Settings" och välj att "gh-pages" ska vara "Default Branch".
+![Sätt gh-pages som default branch, GitHub][github-default-branch] 
 
-*Beroende om du sitter på campus eller på distans så kommer denna uppgift att skilja sig åt något.* 
+Du är nu klar med inställningarna på GitHub och du kan sätta igång att koda. Vilken utvecklingsmiljö du använder nu är helt upp till dig själv, men vi rekommenderar den molnbaserade utvecklingsmiljön "Cloud9" för dig som inte redan har en utvecklingsmiljö igång som du hellre vill arbeta med. Handledningen är skriven utifrån Cloud9, men det är inga problem att göra laborationerna i en annan miljö.
 
-*Det du ska göra är att kontrollera att du på nätverksenheten p: har en katalog som heter www.*
-
-Campus
-Sitter du inloggad på en dator på campus kan du öppna en filhanterare (win+e) och navigera dig till p:
-
-Väl där kontrollerar du att katalogen www existerar och att du har en fil, default.htm, i denna katalog.
-
-Distans
-På distans så har du inte direkt tillgång till nätverksenheten p:. Det finns dock flera olika möjligheter för dig att koppla upp dig mot denna enhet för att föra över filer. 
-
-Bästa sättet för att lyckas bra med laborationerna i denna kurs är att använda ett separat ftp-program, alternativt använda en editor med inbyggt stöd för ftp. På kursens webbplats finns inspelade demo som visar hur du använder ftp.
-
-Alternativ två är att använda http://wfm.lnu.se. Denna webbklient låter dig få tillgång till p: och du kan då på samma sätt som campus kontrollera om du har tillgång till www-katalogen.
-
-Om du inte har någon www-katalog
-Om du inte har någon www-katalog så ska du inte själv heller skapa denna katalog. Kontakta i så fall kursansvarig så fort som möjligt så ser vi till att denna katalog skapas till dig. Anledningen till att du inte har en www-katalog är att du troligtvis studerat någon icke it-relaterad utbildning eller kurs vid LNU, HIK eller VXU tidigare och ditt konto är då inte uppgraderat.
  
 ## Uppgift 1.2 – Ett första dokument
 Under kursens laborationer kommer du steg för steg att bygga upp en blogg, eller enklare hemsida som ska kunna användas för att bland annat presentera laborationer på. 
@@ -221,4 +210,10 @@ Lägg till frågorna och svaren på frågorna från 1.4.
 
 [labbportal]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/laborationsportal.png
 
-[git-add-repro]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/git_add_repro.png
+[github-add-repro]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-add-repro.png
+
+[github-add-user]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-add-user.png
+
+[github-add-ghpages]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-add-ghpages.png
+
+[github-default-branch]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-default-branch.png
