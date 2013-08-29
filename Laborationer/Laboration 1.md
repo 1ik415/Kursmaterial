@@ -83,7 +83,7 @@ Du får välja om du vill ha ditt projekt öppet eller privat. Vilket som går b
 Cloud9 har inget stöd i för Git i det grafiska gränssnittet utan du måste arbeta med kommandoprompten, terminalen, när du gör commits och trycker dina ändringar till GitHub. 
 Eftersom vi valt att arbeta med grenen "gh-pages" så måste vi i vår utvecklingsmiljö tala om att det är mot denna gren vi vill arbeta. Du behöver bara tala om det en gång.
 Skriv därför i terminalen:
-``git checkout gh-pages`` och tryck enter.
+```git checkout gh-pages``` och tryck enter.
 Det bör nu stå:
 `….. (gh-pages) $ _` i terminalen som en indikation på att du är i rätt gren.
 
