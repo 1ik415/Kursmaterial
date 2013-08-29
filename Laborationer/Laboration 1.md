@@ -44,7 +44,7 @@ Följande miljö rekommenderas från kursledningen men är inget krav:
 * Cloud9 används som IDE (Integrerad Utvecklingsmiljö)
 * Ditt GitHub-repositorie är publikt eller privat.
 
-### Sätta upp utvecklingsmiljön
+### Git och GitHub
 Det första vi ska göra är att komma igång med git och sätta upp vår utvecklingsmiljö.
 
 1. Börja med att skapa ett konto på GitHub, gärna med din "skol-epostadress" och samma användarnamn som du har på ditt skolkonto. *Det går bra att använda ett befintligt GitHub-konto om du vill. Men se begränsningar nedan.*
@@ -61,10 +61,33 @@ Du har nu skapat ett repositorie som kursledningen kan komma åt och titta i oav
 1. Gå in på ditt repositorie och klicka på knappen "branch: master". Lägg till "gh-pages".
 ![Lägg till branch, GitHub][github-add-ghpages] 
 2. Klicka på "Settings" och välj att "gh-pages" ska vara "Default Branch".
-
 ![Sätt gh-pages som default branch, GitHub][github-default-branch] 
 
 Du är nu klar med inställningarna på GitHub och du kan sätta igång att koda. Vilken utvecklingsmiljö du använder nu är helt upp till dig själv, men vi rekommenderar den molnbaserade utvecklingsmiljön "Cloud9" för dig som inte redan har en utvecklingsmiljö igång som du hellre vill arbeta med. Handledningen är skriven utifrån Cloud9, men det är inga problem att göra laborationerna i en annan miljö.
+
+### Cloud9
+Cloud9 är en molnbaserad utvecklingsmiljö med stark koppling mot bland annat GitHub. Detta betyder att du kan låta Cloud9 klona ditt repositorie från GitHub och arbeta mot dina filer utan att du behöver hämta hem dessa filer till din lokala dator. Detta ger en stor fördel i att du enkelt kan påbörja arbete på en dator och avsluta på en annan utan att behöva flytta någon fil.
+
+1. Se till att du är inloggad på GitHub. 
+2. Gå till [](https://c9.io/) och välj att logga in via GitHub.
+![Logga in på Cloud9 via GitHub][c9-login]
+3. Acceptera att Cloud9 får komma åt ditt GitHub-konto.
+4. Du kommer att klara dig bra på gratisvarianten av Cloud9 för kursernas skulle så klicka bort rutan om att uppgradera till en 
+betalningsplan.
+5. Du bör nu se ditt GitHub-repositorie i vänstermenyn. Klicka på det.
+6. För att klona repositoriet till Cloud9 så att du kan börja editera dina filer så klickar du på "Clone to edit".
+Du får välja om du vill ha ditt projekt öppet eller privat. Vilket som går bra.
+7. Allt klart. Börja editera genom att klicka på "Start editing".
+
+### Cloud9 och GitHub
+Cloud9 har inget stöd i för Git i det grafiska gränssnittet utan du måste arbeta med kommandoprompten, terminalen, när du gör commits och trycker dina ändringar till GitHub. 
+Eftersom vi valt att arbeta med grenen "gh-pages" så måste vi i vår utvecklingsmiljö tala om att det är mot denna gren vi vill arbeta. Du behöver bara tala om det en gång.
+Skriv därför i terminalen:
+`git checkout gh-pages` och tryck enter.
+Det bör nu stå:
+`….. (gh-pages) $ _` i terminalen som en indikation på att du är i rätt gren.
+
+ 
 
  
 ## Uppgift 1.2 – Ett första dokument
@@ -224,3 +247,5 @@ Lägg till frågorna och svaren på frågorna från 1.4.
 [github-add-ghpages]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-add-ghpages.png
 
 [github-default-branch]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-default-branch.png
+
+[c9-login]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/c9-login.png
