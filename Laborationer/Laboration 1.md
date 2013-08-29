@@ -32,6 +32,7 @@ Laborationen ska genomföras enskilt. Du får givetvis fråga klasskamrater om h
 Du ska i denna uppgift komma igång med den utvecklingsmiljö som du ska använda i kursen. 
 
 Följande krav ställer kursen på utvecklingsmiljön:
+
 * Git ska användas för versionshantering. Ett repositorie för hela laborationskursen.
 * Du ska göra **minst** en commit per uppgift.
 * GitHub ska användas för att ge kursledningen tillgång till ditt repositorie.
