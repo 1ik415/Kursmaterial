@@ -61,6 +61,7 @@ Du har nu skapat ett repositorie som kursledningen kan komma åt och titta i oav
 1. Gå in på ditt repositorie och klicka på knappen "branch: master". Lägg till "gh-pages".
 ![Lägg till branch, GitHub][github-add-ghpages] 
 2. Klicka på "Settings" och välj att "gh-pages" ska vara "Default Branch".
+
 ![Sätt gh-pages som default branch, GitHub][github-default-branch] 
 
 Du är nu klar med inställningarna på GitHub och du kan sätta igång att koda. Vilken utvecklingsmiljö du använder nu är helt upp till dig själv, men vi rekommenderar den molnbaserade utvecklingsmiljön "Cloud9" för dig som inte redan har en utvecklingsmiljö igång som du hellre vill arbeta med. Handledningen är skriven utifrån Cloud9, men det är inga problem att göra laborationerna i en annan miljö.
