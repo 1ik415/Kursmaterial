@@ -10,7 +10,7 @@ I mitten av laborationen finns en teoretisk uppgift kring absoluta och relativa 
 Du som är ny på html kan finna mycket hjälp i de inspelade demonstrationer som du hittar via kursens webbplats.
 
 ## Mål
-Efter genomförd laboration ska du kunna skapa enklare html-dokument som du kan ladda upp till en webbserver för publicering. Du kommer vidare att kunna valideras dessa uppladdade dokument.
+Efter genomförd laboration ska du vara bekant med den utvecklingsmiljö som du kommer att använda i kursen. Vidare ska du kunna skapa enklare html-dokument som du via en webbserver kan titta på publikt. Du kommer vidare att kunna valideras dessa uppladdade dokument.
 Du kommer att få lära känna de enklaste html-taggarna så som p, h, ul lite bättre.
 Du kommer vidare att öva på att länka mellan dokument med hjälp av a-taggen, lägga in olika typer av media, skapa tabeller och formulär.
 
@@ -22,13 +22,33 @@ Läs igenom **hela** laborationshandledningen innan du påbörjar laborationen.
 ## Genomförande
 Utför laborationens uppgifter och moment samt dokumentera vad du kommer fram till på de olika delarna. Vid redovisning av laborationen ska du kunna besvara frågor om hur du har löst de olika delarna och varför de är lösta på det sätt du löst dem på.
 När du anser dig vara klar med laborationen kontrollerar du att din källkod uppfyller laborationens samtliga krav.
-Efter (minst) varje uppgift i denna handledning ska du göra en commit till ditt GIT-repositorie. (Se kursens webbplats för mer information kring GIT)
+Efter (minst) varje uppgift i denna handledning ska du göra en commit till ditt GIT-repositorie. (Se kursens webbplats och uppgift 1 nedan för mer information kring GIT)
 
 ## Plagiat
 Laborationen ska genomföras enskilt. Du får givetvis fråga klasskamrater om hjälp men du ska skriva din egen kod och kunna svara för varför du skrivit din kod på det sätt du gjort. Vid fuskmisstanke lämnas misstankar samt berörda dokument över till universitetets disciplinnämnd.
 
  
-## Uppgift 1.1 – GIT FÖRÄNDRA
+## Uppgift 1.1 – Utvecklingsmiljön
+Du ska i denna uppgift komma igång med den utvecklingsmiljö som du ska använda i kursen. 
+
+Följande krav ställer kursen på utvecklingsmiljön:
+* Git ska användas för versionshantering. Ett repositorie för hela laborationskursen.
+* Du ska göra **minst** en commit per uppgift.
+* GitHub ska användas för att ge kursledningen tillgång till ditt repositorie.
+* GitHub-användaren "1ik415" ska vara "Collaborator" på repositoriet.
+* GitHub-pages ska användas för att publicera den senaste versionen av dina laborationer.
+
+Följande miljö rekommenderas från kursledningen men är inget krav:
+* Cloud9 används som IDE (Integrerad Utvecklingsmiljö)
+* Ditt GitHub-repositorie är publikt eller privat.
+
+### Sätta upp utvecklingsmiljön
+Det första vi ska göra är att komma igång med git och sätta upp vår utvecklingsmiljö.
+1. Börja med att skapa ett konto på GitHub, gärna med din "skol-epostadress" och samma användarnamn som du har på ditt skolkonto. *Det går bra att använda ett befintligt GitHub-konto om du vill. Men se begränsningar nedan.*
+2. Ansök gärna om att få ditt GitHub-konto kopplat till en "utbilningslicens". *Detta kräver att ditt konto har skolans e-postadress.*
+3. Skapa ett nytt repositorie, publikt eller privat. Döp det exempelvis till "1ik415-laborationer". *Om ditt användarnamn på GitHub är skilt ifrån ditt användarnamn på skolan behöver du också inkludera användarnamnet i repositorienamnet. Exempelvis: "1ik415-xx222yy-laborationer".*
+![Skapa nytt repro, GitHub][github-add-repro]  
+4. 
 
 1. Skapa gh-pages-branch.
 Vänta lite i klienten och byt sedan till gh-branchen. 
@@ -59,14 +79,14 @@ Under kursens laborationer kommer du steg för steg att bygga upp en blogg, elle
 
 Det första steget vi ska ta nu är att skapa ett första html-dokument som kommer att innehålla en presentation över dig, vad du gjort tidigare etc. 
 Du är fri att själv forma innehållet men det vore intressant att bland annat få veta följande:
-•	Intressen
-•	Familj
-•	Vad du är bra respektive mindre bra på
-•	Tidigare utbildning?
-•	Arbetslivserfarenhet?
-•	Har du programmerat tidigare?
-•	Vad fick dig att söka utbildningen?
-•	Tankar inför framtiden?
+* Intressen
+* Familj
+* Vad du är bra respektive mindre bra på
+* Tidigare utbildning?
+* Arbetslivserfarenhet?
+* Har du programmerat tidigare?
+* Vad fick dig att söka utbildningen?
+* Tankar inför framtiden?
 
 Denna sida döper du till ”presentation.html”. Sidan ska placeras i en katalog som du döper till ”pages” och som du lägger i ditt lokala repositorie (Den katalog som du skapade i uppgift 1). 
  
@@ -200,3 +220,5 @@ Lägg till frågorna och svaren på frågorna från 1.4.
 [lankar]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/links.png
 
 [labbportal]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/laborationsportal.png
+
+[git-add-repro]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/git_add_repro.png
