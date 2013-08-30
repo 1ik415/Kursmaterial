@@ -49,7 +49,7 @@ Följande miljö rekommenderas från kursledningen men är inget krav:
 ### Git och GitHub
 Det första vi ska göra är att komma igång med git och sätta upp vår utvecklingsmiljö.
 
-1. Börja med att skapa ett konto på GitHub, gärna med din "skol-epostadress" och samma användarnamn som du har på ditt skolkonto. *Det går bra att använda ett befintligt GitHub-konto om du vill. Men se begränsningar nedan.*
+1. Börja med att skapa ett konto på GitHub, med din "skol-epostadress" och gärna samma användarnamn som du har på ditt skolkonto. *Det går bra att använda ett befintligt GitHub-konto om du vill. Men se begränsningar nedan.*
 2. Ansök gärna om att få ditt GitHub-konto kopplat till en "utbilningslicens". *Detta kräver att ditt konto har skolans e-postadress.*
 3. Skapa ett nytt repositorie, publikt eller privat. Döp det exempelvis till "1ik415-laborationer". *Om ditt användarnamn på GitHub är skilt ifrån ditt användarnamn på skolan behöver du också inkludera användarnamnet i repositorienamnet. Exempelvis: "1ik415-xx222yy-laborationer".*
 ![Skapa nytt repro, GitHub][github-add-repro]  
@@ -203,31 +203,127 @@ Skapa nu html-dokumenten enligt strukturen ovan så att du har följande struktu
 ![Föreslagen filstruktur][lankstruktur2]
 
 Som du ser kan du redan nu skapa katalogerna "pics" och "videos" som kommer att användas i senare uppgifter.
-### Intern länkstrukturDu ska nu bygga upp sajtens länkstruktur. För att göra sidan så användarvänlig som möjligt ska vi se till att samtliga sidor i sajten länkar till varandra.Exempel:Användaren surfar in till sidan index.html. Denna sida innehåller länkar till "presentation.html", "laborationer.html", "kontakt.html". Användaren klickar på länken till sidan "presentation.html" och tas till sidan. Väl där ser användaren samma meny som på startsidan. Se bilder nedan.Bygg nu upp länkstrukturen på dina sidor enligt beskrivningen ovan. Länkarn ska ligga i en osorterad lista.Menyn ska se likadan ut oavsett vilken sida man besöker. På exempelsidorna har även en "tagline" lagts till under huvudrubriken. 
+### Intern länkstruktur
+Du ska nu bygga upp sajtens länkstruktur. För att göra sidan så användarvänlig som möjligt ska vi se till att samtliga sidor i sajten länkar till varandra.
+
+Exempel:
+Användaren surfar in till sidan index.html. Denna sida innehåller länkar till "presentation.html", "laborationer.html", "kontakt.html". 
+Användaren klickar på länken till sidan "presentation.html" och tas till sidan. Väl där ser användaren samma meny som på startsidan. Se bilder nedan.
+
+Bygg nu upp länkstrukturen på dina sidor enligt beskrivningen ovan. 
+Länkarn ska ligga i en osorterad lista.
+Menyn ska se likadan ut oavsett vilken sida man besöker. På exempelsidorna har även en "tagline" lagts till under huvudrubriken. 
 ![Exempel på utseende][lankar]
 
 **Gör en commit till git.**
 
-### LaborationsportalDu ska nu bygga upp en struktur för presentation av dina laborationer. Detta gör du i filen laborationer.html. På sikt ska flera kurser kunna samsas på denna sida. Du behöver alltså tänka på detta när du bestämmer dina rubriknivåer. När du skriver denna sida ska du få fortsatt träning på att använda olika listor. Listorna ul, ol och dl ska samtliga användas på sidan. Nedan ser du ett exempel på hur du kan lägga upp din sida:![Exempel på utseende][labbportal]
+### Laborationsportal
+Du ska nu bygga upp en struktur för presentation av dina laborationer. Detta gör du i filen laborationer.html. 
+På sikt ska flera kurser kunna samsas på denna sida. Du behöver alltså tänka på detta när du bestämmer dina rubriknivåer. 
+
+När du skriver denna sida ska du få fortsatt träning på att använda olika listor. Listorna ul, ol och dl ska samtliga användas på sidan. Nedan ser du ett exempel på hur du kan lägga upp din sida:
+
+![Exempel på utseende][labbportal]
 
 Den osorterade listan direkt under kursrubriken ska ha ankarlänkar direkt ner till respektive laborationsrubrik. Alltså: Om man klickar på "Laboration 2" så ska webbläsaren 
 scrolla ner till rubriken "Laboration 2". 
 
 Lägg till frågorna och svaren på frågorna från 1.4.
 
-**Gör en commit till git**### Externa länkarDu ska nu modifiera din sida presentation.html något. Du ska här lägga in minst tre länkar till externa webbplatser. Detta kan vara länkar till bloggar du följer, företag du arbetat på och så vidare. Lägg till länkarna på ett lämpligt sätt.**Gör en commit till git**
+**Gör en commit till git**
 
-## Uppgift 1.6 - BilderDu ska nu testa på att infoga bilder på din sajt. Du ska lägga till bilder i följande bildformat:* jpeg* png* svg### Presentation, jpegPå din presentation ska du nu på lämpligt ställe lägga till ett fotografi, eller motsvarande, på dig. Vill du inte lägga upp en bild på dig själv går det bra med ett annat fotografi, så länge som du själv har rättigheterna till fotot eller använder icke upphovsrättsskyddat material.Fotot som du ska länka in ska du lägga i katalogen:*pics*som du får skapa själv. (Se 1.5)Bilden ska länkas in med en **relativ sökväg**.När det är gjort ska du ifrån din laborationsportal göra en **ankarlänk** som tar dig till sidan "presentation.html" och skrollar användarens webbläsare till bilden.### Startsidan, pngPNG-formatet lämpar sig utmärkt för bilder med statisk grafik så som logotyper, ikoner etc. Du ska nu göra en logotyp till din sajt. Denna logotyp ska du placera på förstasidan, index.html. Du är fri att välja vilket grafiskt verktyg som du önskar. Exempelvis lämpar sig det webbaserade http://pixlr.com utmärkt om du vill göra enklare bildbehandling. Inget krav på konstnärlig förmåga finns.Även denna bild placeras i katalogen *pics* och länkas in med en relativ länk.När du är färdig så ska du ifrån din laborationsportal länka direkt till bildfilen, alltså inte till startsidan.### Laborationssidan, svgDu ska även prova på att skapa en bild med hjälp av vektorgrafik. Använd exempelvis det webbaserade verktyget http://code.google.com/p/svg-edit/Skapa en vektorbaserad bild och länka in i ett nytt blogginlägg på din startsida. Länka till blogginlägget från "Uppgift 1.6" på laborationssidan.**Gör en commit till git**
-
-## Uppgift 1.7 – VideoDet enklaste sättet att tillhandahålla video till användarna av din sajt idag är att använda externa tjänster som Vimeo eller YouTube. Men i och med HTML5 och video-taggens intåg kommer det bli enklare att infoga video på sajter utan att vara beroende av en tredje part. I denna uppgift ska du få testa på att länka in en video med hjälp av video-taggen. På sajten http://www.bigbuckbunny.org finns videofiler i olika format som du kan ladda ner för att testa i denna uppgift. Ge dock en länk tillbaka till Big Buck Bunny som tack för lånet (Se CC-licensen). Det går även bra att ta egna videoklipp om du så önskar.Skapa nu ett nytt blogginlägg på startsidan och lägg där upp filmen.* Det ska gå att starta stoppa filmen med hjälp av inbyggda kontrollerna* Filmen ska inte starta automatiskt när man går in på sidan 
-![Resultat][video]
-Som vanligt och i samtliga kommande uppgifter länkar du sedan till detta inlägg från laborationssidan.**Gör en commit till git**
-
-## Uppgift 1.8 – TabellerUppgiften går ut på att konstruera en tabell innehållande ditt studieresultat under kursen. Tabellen placeras lämpligtvis på sidan laborationer.html efter ankarlänkarna under rubriken "Webbteknisk introduktion".Här ser du hur tabellen ska se ut:![][table]Observera att nedre raden enbart har en cell samt att exempelvis cellen "2" under rubriken "Laboration" spänner över samtliga uppgifter för den laborationen.* thead, tbody och tfoot ska användas på korrekt sätt.Du får använda attributet `border='1'` på tabelltaggen för att få stödlinjer kring tabellen. Detta kan vi sedan byta ut mot stilegenskaper med css. 
+### Externa länkar
+Du ska nu modifiera din sida presentation.html något. Du ska här lägga in minst tre länkar till externa webbplatser. Detta kan vara länkar till bloggar du följer, företag du arbetat på och så vidare. Lägg till länkarna på ett lämpligt sätt.
 
 **Gör en commit till git**
 
-## Uppgift 1.9 - FormulärSom sista steg i denna laboration ska vi nu ta oss an sidan "kontakt.html".Några krav på formuläret:* Metoden som ska användas är post* Ett textfält finns* En grupp med radioknappar eller kryssrutor används * En dropdownlista finns * En submit-knapp finns* Fieldsets och tillhörande legend ska användas för att strukturera upp formuläret.![][form] För att testa formuläret så skickar du formulärdatan till sidan:[http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php](http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php)Ovanstående sida skriver automatiskt ut de namn-/värdepar som skickats från formuläret. Detta fungerar bara om du använder rätt metod, det vill säga post.*(Om du själv har möjlighet kan du skicka formulärdatan till ett eget  serversideskript som läser ut datan och presenterar den.)***Gör en commit till git samt en push mot GitHub**
+## Uppgift 1.6 - Bilder
+Du ska nu testa på att infoga bilder på din sajt. Du ska lägga till bilder i följande bildformat:
+
+* jpeg
+* png
+* svg
+
+### Presentation, jpeg
+På din presentation ska du nu på lämpligt ställe lägga till ett fotografi, eller motsvarande, på dig. Vill du inte lägga upp en bild på dig själv går det bra med ett annat fotografi, så länge som du själv har rättigheterna till fotot eller använder icke upphovsrättsskyddat material.
+
+Fotot som du ska länka in ska du lägga i katalogen:
+*pics*
+som du får skapa själv. (Se 1.5)
+
+Bilden ska länkas in med en **relativ sökväg**.
+
+När det är gjort ska du ifrån din laborationsportal göra en **ankarlänk** som tar dig till sidan "presentation.html" och skrollar användarens webbläsare till bilden.
+
+### Startsidan, png
+PNG-formatet lämpar sig utmärkt för bilder med statisk grafik så som logotyper, ikoner etc. Du ska nu göra en logotyp till din sajt. Denna logotyp ska du placera på förstasidan, index.html. 
+
+Du är fri att välja vilket grafiskt verktyg som du önskar. Exempelvis lämpar sig det webbaserade http://pixlr.com utmärkt om du vill göra enklare bildbehandling. 
+
+Inget krav på konstnärlig förmåga finns.
+Även denna bild placeras i katalogen *pics* och länkas in med en relativ länk.
+
+När du är färdig så ska du ifrån din laborationsportal länka direkt till bildfilen, alltså inte till startsidan.
+
+### Laborationssidan, svg
+Du ska även prova på att skapa en bild med hjälp av vektorgrafik. Använd exempelvis det webbaserade verktyget http://code.google.com/p/svg-edit/
+Skapa en vektorbaserad bild och länka in i ett nytt blogginlägg på din startsida. Länka till blogginlägget från "Uppgift 1.6" på laborationssidan.
+
+**Gör en commit till git**
+
+## Uppgift 1.7 – Video
+
+Det enklaste sättet att tillhandahålla video till användarna av din sajt idag är att använda externa tjänster som Vimeo eller YouTube. Men i och med HTML5 och video-taggens intåg kommer det bli enklare att infoga video på sajter utan att vara beroende av en tredje part. 
+
+I denna uppgift ska du få testa på att länka in en video med hjälp av video-taggen. På sajten http://www.bigbuckbunny.org finns videofiler i olika format som du kan ladda ner för att testa i denna uppgift. Ge dock en länk tillbaka till Big Buck Bunny som tack för lånet (Se CC-licensen). 
+
+Det går även bra att ta egna videoklipp om du så önskar.
+
+Skapa nu ett nytt blogginlägg på startsidan och lägg där upp filmen.
+* Det ska gå att starta stoppa filmen med hjälp av inbyggda kontrollerna
+* Filmen ska inte starta automatiskt när man går in på sidan
+ 
+![Resultat][video]
+
+Som vanligt och i samtliga kommande uppgifter länkar du sedan till detta inlägg från laborationssidan.
+
+**Gör en commit till git**
+
+## Uppgift 1.8 – Tabeller
+Uppgiften går ut på att konstruera en tabell innehållande ditt studieresultat under kursen. Tabellen placeras lämpligtvis på sidan laborationer.html efter ankarlänkarna under rubriken "Webbteknisk introduktion".
+
+Här ser du hur tabellen ska se ut:
+![][table]
+
+Observera att nedre raden enbart har en cell samt att exempelvis cellen "2" under rubriken "Laboration" spänner över samtliga uppgifter för den laborationen.
+
+* thead, tbody och tfoot ska användas på korrekt sätt.
+
+Du får använda attributet `border='1'` på tabelltaggen för att få stödlinjer kring tabellen. Detta kan vi sedan byta ut mot stilegenskaper med css. 
+
+**Gör en commit till git**
+
+## Uppgift 1.9 - Formulär
+Som sista steg i denna laboration ska vi nu ta oss an sidan "kontakt.html".
+
+Några krav på formuläret:
+* Metoden som ska användas är post
+* Ett textfält finns
+* En grupp med radioknappar eller kryssrutor används 
+* En dropdownlista finns 
+* En submit-knapp finns
+* Fieldsets och tillhörande legend ska användas för att strukturera upp formuläret.
+
+![][form]
+ 
+För att testa formuläret så skickar du formulärdatan till sidan:
+[http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php](http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php)
+
+Ovanstående sida skriver automatiskt ut de namn-/värdepar som skickats från formuläret. Detta fungerar bara om du använder rätt metod, det vill säga post.
+
+*(Om du själv har möjlighet kan du skicka formulärdatan till ett eget  serversideskript som läser ut datan och presenterar den.)*
+
+**Gör en commit till git samt en push mot GitHub**
 
 ## Postludium
 Du har nu genomfört laboration 1. För att du senare enkelt ska kunna gå tillbaka och se hur koden såg ut när genomfört laboration 1 ska du göra något som kallas för en tag eller release. 
