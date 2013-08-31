@@ -47,7 +47,7 @@ Följande miljö rekommenderas från kursledningen men är inget krav:
 * Ditt GitHub-repositorie är publikt eller privat.
 
 ### Git och GitHub
-Det första vi ska göra är att komma igång med git och sätta upp vår utvecklingsmiljö.
+Det första vi ska göra är att komma igång med git och sätta upp vår utvecklingsmiljö. Läs gärna igenom vår [Git-guide](https://coursepress.lnu.se/info/kom-igang-med-github/) innan du sätter igång.
 
 1. Börja med att skapa ett konto på GitHub, med din "skol-epostadress" och gärna samma användarnamn som du har på ditt skolkonto. *Det går bra att använda ett befintligt GitHub-konto om du vill. Men se begränsningar nedan.*
 2. Ansök gärna om att få ditt GitHub-konto kopplat till en "utbilningslicens". *Detta kräver att ditt konto har skolans e-postadress.*
