@@ -94,6 +94,8 @@ Det bör nu stå:
 
 i terminalen som en indikation på att du är i rätt gren.
 
+**TODO:** Lägg till information om .gitignore för att gömma .c9revisions-katalogen
+
 Öppna nu filen "README.md" och gör någon förändring i denna och spara dina ändringar.
 
 Vi ska nu göra en "commit" samt synka våra ändringar till GitHub. 
