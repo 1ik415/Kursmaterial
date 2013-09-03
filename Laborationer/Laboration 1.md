@@ -85,7 +85,7 @@ Du får välja om du vill ha ditt projekt öppet eller privat. Vilket som går b
 ### Cloud9 och GitHub
 Cloud9 har inget stöd i för Git i det grafiska gränssnittet utan du måste arbeta med kommandoprompten, terminalen, när du gör commits och trycker dina ändringar till GitHub. 
 
-![Cloud 9 - terminalen][c9-terminal]
+Terminalen i Cloud9: ![Cloud 9 - terminalen][c9-terminal]
 
 Eftersom vi valt att arbeta med grenen "gh-pages" i GitHub så bör också denna gren vara förvald när du startar Cloud9. Du kan se vilken gren som är vald genom att se vad som står inom (paranteser) i kommandotolken. Står det 
 
