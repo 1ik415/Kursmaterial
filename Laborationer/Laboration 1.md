@@ -58,12 +58,13 @@ Klicka in på repositoriet -> Settings -> Collaboraters
 ![Lägg till medarbetare, GitHub][github-add-user]
 5. Skapa en README.md-fil i ditt repositorie i vilken du skriver lite kort om vad syftet med repositoriet är.
 
-Du har nu skapat ett repositorie som kursledningen kan komma åt och titta i oavsett om det är publikt eller privat. Nästa steg är att skapa en "branch" som heter "gh-pages". Detta gör att dina HTML-filer kommer att publiceras via GitHub-pages.
+Du har nu skapat ett repositorie som kursledningen kan komma åt och titta i oavsett om det är publikt eller privat. Nästa steg är att skapa en "branch" som heter "gh-pages" och ta bort vår gren master så att den inte ställer till det för oss i början. Genom att använda grenen gh-pages gör att dina HTML-filer kommer att publiceras via GitHub-pages.
 
 1. Gå in på ditt repositorie och klicka på knappen "branch: master". Lägg till "gh-pages".
 ![Lägg till branch, GitHub][github-add-ghpages] 
 2. Klicka på "Settings" och välj att "gh-pages" ska vara "Default Branch".
 ![Sätt gh-pages som default branch, GitHub][github-default-branch] 
+3. Radera grenen master genom att klicka på fliken "2 branch". Klicka på "View merged branches" och sedan "Delete branch" på raden med Master. ![][github-deletemaster]
 
 Du är nu klar med inställningarna på GitHub och du kan sätta igång att koda. Vilken utvecklingsmiljö du använder nu är helt upp till dig själv, men vi rekommenderar den molnbaserade utvecklingsmiljön "Cloud9" för dig som inte redan har en utvecklingsmiljö igång som du hellre vill arbeta med. Handledningen är skriven utifrån Cloud9, men det är inga problem att göra laborationerna i en annan miljö.
 
@@ -83,16 +84,17 @@ Du får välja om du vill ha ditt projekt öppet eller privat. Vilket som går b
 
 ### Cloud9 och GitHub
 Cloud9 har inget stöd i för Git i det grafiska gränssnittet utan du måste arbeta med kommandoprompten, terminalen, när du gör commits och trycker dina ändringar till GitHub. 
-Eftersom vi valt att arbeta med grenen "gh-pages" så måste vi i vår utvecklingsmiljö tala om att det är mot denna gren vi vill arbeta. Du behöver bara tala om det en gång.
-Skriv därför i terminalen:
 
-`git checkout gh-pages` och tryck enter.
+![Cloud 9 - terminalen][c9-terminal]
 
-Det bör nu stå:
+Eftersom vi valt att arbeta med grenen "gh-pages" i GitHub så bör också denna gren vara förvald när du startar Cloud9. Du kan se vilken gren som är vald genom att se vad som står inom (paranteser) i kommandotolken. Står det 
 
 `….. (gh-pages) $ _` 
 
-i terminalen som en indikation på att du är i rätt gren.
+så är allting rätt. Har du valt att inte radera din gren "master" så kommer troligtvis denna vara vald av Cloud9. I så fall kan byta gren genom att skriva:
+
+`git checkout gh-pages` och tryck enter.
+
 
 **TODO:** Lägg till information om .gitignore för att gömma .c9revisions-katalogen
 
@@ -373,4 +375,8 @@ Var så god att påbörja arbetet med laboration 2!
 
 [github-release]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-release.png
 
+[github-deletemaster]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-deletemaster.png
+
 [c9-login]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/c9-login.png
+
+[c9-terminal]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/c9-terminal.png
