@@ -1,10 +1,14 @@
 På denna sida kommer jag att samla samtliga demon som finns inspelade till kursen. Många demon länkas dessutom till i det sammanhang de hör.
 
-##Kom igång
-###Github och Cloud9
+## Kom igång
+### Github och Cloud9
 Hur kommer du igång med utvecklingsmiljön i kursen?
 <iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/4PtFoyFRJec" frameborder="0" allowfullscreen></iframe>
 
-###Teckenuppsättning
+### Teckenuppsättning
 Om du använder en lokal editor och inte använder Cloud9 så kan du få problem med teckenuppsättningar beroende på vilken editor du använder. Jag går igenom problemet och visar lite olika lösningar. Använder du cloud9 så är dina dokument skrivna i utf-8 och det är också detta du ska tala om med en meta-tagg.
 <iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/mUyVESBW5Cc" frameborder="0" allowfullscreen></iframe>
+
+### Ett första html-dokument
+Ett demo för att komma igång och skriva vårt första HTML-dokument.
+<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/cbf1_Jyuk5c" frameborder="0" allowfullscreen></iframe>
