@@ -12,3 +12,11 @@ Om du använder en lokal editor och inte använder Cloud9 så kan du få problem
 ### Ett första html-dokument
 Ett demo för att komma igång och skriva vårt första HTML-dokument.
 <iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/cbf1_Jyuk5c" frameborder="0" allowfullscreen></iframe>
+
+### Validering
+Vi tittar på hur man validerar sina html-dokument.
+<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/HWVYTtA7Z9Y" frameborder="0" allowfullscreen></iframe>
+
+## HTML-taggar
+### Rubriker och Stycken (h1-h6, p, br, &nbsp;)
+<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/d34ptPxCr3Y" frameborder="0" allowfullscreen></iframe>
