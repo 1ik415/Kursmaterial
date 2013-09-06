@@ -134,7 +134,7 @@ I presentation.html ser du nu till att skriva den html-kod som behövs för att 
 
 För att uppgiften ska vara godkänd ska ditt dokument minst innehålla följande:
 
-* En korrekt html5-struktur
+* Element för att dokumentet ska validera enligt HTML5
 * Två rubriknivåer
 * Text separerad med hjälp av paragraftaggar. 
 * Samtliga listor. (ol, ul, dl)
