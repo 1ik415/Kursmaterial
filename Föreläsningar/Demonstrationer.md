@@ -20,3 +20,6 @@ Vi tittar på hur man validerar sina html-dokument.
 ## HTML-taggar
 ### Rubriker och Stycken (h1-h6, p, br, &nbsp;)
 <iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/d34ptPxCr3Y" frameborder="0" allowfullscreen></iframe>
+
+### Listor (ol, ul, dl)
+<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/8fRHBLqzLuw" frameborder="0" allowfullscreen></iframe>
