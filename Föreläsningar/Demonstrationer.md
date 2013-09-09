@@ -23,3 +23,9 @@ Vi tittar på hur man validerar sina html-dokument.
 
 ### Listor (ol, ul, dl)
 <iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/8fRHBLqzLuw" frameborder="0" allowfullscreen></iframe>
+
+### Kommentarer
+<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/s35boHaR08s?list=UUDHv5G4pqVApu--NsCrRycw" frameborder="0" allowfullscreen></iframe>
+
+### Länkar
+<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/mE-p4bQoOc4?list=UUDHv5G4pqVApu--NsCrRycw" frameborder="0" allowfullscreen></iframe>
