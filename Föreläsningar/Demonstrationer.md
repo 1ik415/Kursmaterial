@@ -23,6 +23,8 @@ Vi tittar på hur man validerar sina html-dokument.
 
 ### Listor (ol, ul, dl)
 <iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/8fRHBLqzLuw" frameborder="0" allowfullscreen></iframe>
+Vidare läsning:
+* [Webplatform.org - Lists](http://docs.webplatform.org/wiki/guides/html_lists)
 
 ### Kommentarer
 <iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/s35boHaR08s?list=UUDHv5G4pqVApu--NsCrRycw" frameborder="0" allowfullscreen></iframe>
