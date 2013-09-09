@@ -336,7 +336,7 @@ Du har nu genomfört laboration 1. För att du senare enkelt ska kunna gå tillb
 2. Kontrollera att dina senaste ändringar finns tillgängliga på GitHub.
 3. Klicka på "releases" ovanför fillistningen.
 4. Välj att skapa en ny release.
-5. Se till att "Tag version" blir `l01` (lars, nolla, etta).
+5. Se till att "Tag version" blir `l01` (Ludvig, nolla, etta).
 Titel och description fyller du i som du själv vill.
 ![GitHub Release][github-release]
 6. Publicera releasen
