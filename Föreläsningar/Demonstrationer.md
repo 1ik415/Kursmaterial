@@ -45,3 +45,24 @@ Vidare läsning:
 Vidare läsning:
 
 * [Webplatform.org - Links](http://docs.webplatform.org/wiki/guides/html_links)
+
+### Media
+Föreläsning som behandlar bilder och video.
+<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/LGHi2xOkTE8" frameborder="0" allowfullscreen></iframe>
+
+Vidare läsning:
+
+* [Webplatform.org - Images in html](http://docs.webplatform.org/wiki/guides/images_in_html)
+
+### Länkar, tabeller och formulär
+Föreläsning som återigen behandlar länkar, men du kan fokusera på delarna kring tabeller och formulär.
+<iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/rH1YJElcLFI" frameborder="0" allowfullscreen></iframe>
+
+Vidare läsning:
+
+* [Webplatform.org - Tables](http://docs.webplatform.org/wiki/guides/html_tables)
+* [Webplatform.org - Forms basics](http://docs.webplatform.org/wiki/guides/html_forms_basics)
+* [Webplatform.org - HTML5 Form features](http://docs.webplatform.org/wiki/guides/html5_form_features)
+
+
+
