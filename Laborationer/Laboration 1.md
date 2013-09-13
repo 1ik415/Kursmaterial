@@ -280,6 +280,7 @@ Skapa en vektorbaserad bild och länka in i ett nytt blogginlägg på din starts
 Det enklaste sättet att tillhandahålla video till användarna av din sajt idag är att använda externa tjänster som Vimeo eller YouTube. Men i och med HTML5 och video-taggens intåg kommer det bli enklare att infoga video på sajter utan att vara beroende av en tredje part. 
 
 I denna uppgift ska du få testa på att länka in en video med hjälp av video-taggen. På sajten http://www.bigbuckbunny.org finns videofiler i olika format som du kan ladda ner för att testa i denna uppgift. Ge dock en länk tillbaka till Big Buck Bunny som tack för lånet (Se CC-licensen). 
+**Obs! Använd de [trailers](http://www.bigbuckbunny.org/index.php/trailer-page/) som finns då dess filstorlek lämpar sig bra för att skicka upp i ditt github-repro.**
 
 Det går även bra att ta egna videoklipp om du så önskar.
 
