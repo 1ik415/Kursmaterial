@@ -159,7 +159,22 @@ Stila nu på eget bevåg till laborationssidan så att exempelvis tabellen följ
 Kontaktformuläret lämnar vi till nästa laboration, men om du vill får du gärna redan nu ge dig på att snygga till det.
 
 **Git-commit**
-**GitHub push**
+
+**Git-push**
+
+## Postludium
+Du har nu genomfört laboration 2 och du ska nu skapa en release för detta på GitHub
+
+1. Logga in på GitHub och gå till repositoriet för laborationen.
+2. Kontrollera att dina senaste ändringar finns tillgängliga på GitHub.
+3. Klicka på "releases" ovanför fillistningen.
+4. Välj att skapa en ny release.
+5. Se till att "Tag version" blir `l02` (Ludvig, nolla, tvåa).
+Välj en lämplig titel.
+6. Publicera releasen
+
+Var så god att påbörja arbetet med laboration 3!
+
 
 [filetree-css]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/filetree-css.png
 
