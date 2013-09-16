@@ -325,7 +325,7 @@ Några krav på formuläret:
 För att testa formuläret så skickar du formulärdatan till sidan:
 [http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php](http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php)
 
-Ovanstående sida skriver automatiskt ut de namn-/värdepar som skickats från formuläret. Detta fungerar bara om du använder rätt metod, det vill säga post.
+Ovanstående sida skriver automatiskt ut de namn-/värdepar som skickats från formuläret. Detta fungerar bara om du använder rätt metod, det vill säga post. Du kommer att bli tillfrågad om användarnamn och lösenord. Det är dina vanliga skoluppgifter du ska ange här.
 
 *(Om du själv har möjlighet kan du skicka formulärdatan till ett eget  serversideskript som läser ut datan och presenterar den.)*
 
