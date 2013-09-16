@@ -312,6 +312,7 @@ Du får använda attributet `border='1'` på tabelltaggen för att få stödlinj
 Som sista steg i denna laboration ska vi nu ta oss an sidan "kontakt.html".
 
 Några krav på formuläret:
+
 * Metoden som ska användas är post
 * Ett textfält finns
 * En grupp med radioknappar eller kryssrutor används 
