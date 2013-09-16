@@ -47,7 +47,7 @@ Läs igenom hela handledningen även om du inte kommer att följa den.
 ## Uppgift 3.1 – Använda stilmallar
 För att få ett enhetligt uttryck på vår sida bör vi skapa en css-fil som länkas in på alla sidor på siten. Det gör inget att denna stilmall kommer att innehålla kod som inte används på samtliga sidor. 
 
-![Filstruktur][filtree-css]
+![Filstruktur][filetree-css]
 
 Du bör nu skapa en länkstruktur enligt ovan. Då hittar du allt som har med stilmallar att göra i katalogen ”css”. I katalogen ”css/pics” kan du lägga bilder som länkas in från css-filen.
 
