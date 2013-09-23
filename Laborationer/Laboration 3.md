@@ -52,11 +52,13 @@ Denna uppgift går ut på att du givet ett påbörjat html-projekt ska färdigst
 1. Logga först och främst in på GitHub och besök uppgiftens repro: [https://github.com/1ik415/Uppgift-3-3](https://github.com/1ik415/Uppgift-3-3)
 
 2. För att göra en "fork" av reprot så klickar du på "Fork" i övre högra delen av webbsidan.
+
 ![Fork][github-fork]
 
 3. Nu finns en kopia av ursprungs reprot på ditt GitHub-konto. Detta betyder att du också kan öppna detta i Cloud9.
 
 4. Logga in på Cloud9 och skapa ett nytt, publikt workspace utifrån "uppgift3-3"
+
 ![Cloud9][c9-repro]
 
 5. Du kan nu börja editera uppgiften. Observera att vi nu håller oss på "branchen" master. Vi kommer alltså inte att publicera resultatet via GitHub-pages.
