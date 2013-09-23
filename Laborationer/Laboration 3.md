@@ -1,4 +1,3 @@
-
 ## Inledning
 Vi kommer på denna laboration fortsätta med CSS och nu finslipa vår sida. Du kommer även att få träna lite extra på CSS genom att göra en ny layout på en separat sida och så långt det går försöka efterlikna en redan färdig design. I och med detta kommer du också att få testa att "forka" ett befintligt projekt på GitHub.
 
@@ -29,7 +28,7 @@ Denna handledning ligger på [GitHub](https://github.com/1ik415/Kursmaterial/blo
 ## Uppgift 3.1 – Stila formuläret
 Förra laborationen innehöll mycket arbete med stilmallen på din portal. Denna laboration kommer att fortsätta på detta arbete och först och främst ska du ge dig på att stila upp ditt formulär. 
 
-Försök göra formuläret så enkelt som möjligt för användaren. Se t.ex. till att texterna (label) in ligger för långt ifrån fälten som ska fyllas i. 
+Försök göra formuläret så enkelt som möjligt för användaren. Se t.ex. till att texterna (label) inte ligger för långt ifrån fälten som ska fyllas i. 
 
 Sedan förra laborationen har du förmodligen ett färdigt färgschema som du även kan nyttja på formuläret för att få det att visuellt hänga ihop med resten av sajten.
 
