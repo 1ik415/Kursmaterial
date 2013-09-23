@@ -82,7 +82,7 @@ När du är färdig så länkar du till uppgiften (en absolut länk till din Clo
 Växla nu tillbaka till arbetsytan för din laborationsportal.
 
 För att få testa på att använda CSS-sprites så ska du nu lägga till lite enkla ikoner till din meny. 
-På kursens webbplats hittar du filen uppgift4.4.zip som innehåller en sprite som du kan använda. Det går givetvis lika bra om du själv tar fram en sprite som du tycker passar bättre till din sidas layout. 
+[På denna länk hittar du en .zip-fil](https://github.com/1ik415/Kursmaterial/blob/master/Laborationer/uppgift3.4.zip) som innehåller en sprite som du kan använda. Det går givetvis lika bra om du själv tar fram en sprite som du tycker passar bättre till din sidas layout. 
 
 Verktyget [http://spritegen.website-performance.org/](http://spritegen.website-performance.org/) kan du då ha stor nytta av.
 
