@@ -1,4 +1,3 @@
-
 ## Inledning
 Vi har hittills koncentrerat oss på att strukturera upp vår information på ett så semantiskt sätt som möjligt. Nu är det dags att ge ögat något vackert att vila på. Vi ska alltså se till att med stilmallar ge vår sajt ett enhetligt och trevligt uttryck.
 
@@ -44,7 +43,7 @@ För dig som väljer att göra laborationen utan att följa laborationshandledni
 
 Läs igenom hela handledningen även om du inte kommer att följa den.
 
-## Uppgift 3.1 – Använda stilmallar
+## Uppgift 2.1 – Använda stilmallar
 För att få ett enhetligt uttryck på vår sida bör vi skapa en css-fil som länkas in på alla sidor på siten. Det gör inget att denna stilmall kommer att innehålla kod som inte används på samtliga sidor. 
 
 ![Filstruktur][filetree-css]
@@ -56,7 +55,7 @@ På denna laboration får du mer än gärna använda en ”nollställnings-css�
 
 **Git-commit**
 
-## Uppgift 3.2 – Layout
+## Uppgift 2.2 – Layout
 När det nu är dags att pynta vår sida med css är det första vi bör göra att titta på den övervägande layouten av sidan. Hur ska de stora byggblocken på sidan förhålla sig till varandra. Ska vi arbeta med kolumner? Ska sidan vara centrerad? Och så vidare. 
 
 Eftersom vi i föregående laborationer inte har funderat alls över vår layout så kommer du nu troligtvis att behöva strukturera din HTML-kod något för att ha en rimlig möjlighet att sedan förändra den på lämpligt sätt med css.
@@ -81,7 +80,7 @@ I detta skede behöver du inte fokusera på typsnitts-storlekar, färger etc. d�
 
 **Git-commit**
 
-## Uppgift 3.3 – Färgsättning
+## Uppgift 2.3 – Färgsättning
 När du känner dig nöjd med layouten kan vi nu gå över till att färgsätta sajten. Här bör du försöka hitta en färgsättning med färger som fungerar bra tillsammans. Ett par primärfärger och någon/några komplementfärger kan vara lämpligt. 
 
 ![.][css-colorex]
@@ -96,7 +95,7 @@ Se nu till att sätta genomtänkta färger på bakgrunder, texter, ramar etc.
 
 **Git-commit**
 
-## Uppgift 3.4 – Menyn
+## Uppgift 2.4 – Menyn
 Hittills har vi inte lagt så mycket energi på menyn men det ska vi göra någonting åt nu.
 
 ![.][css-menu]
@@ -118,7 +117,7 @@ Se nu till att menyn ser likadan ut på samtliga sidor och att den fungerar för
 
 **Git-commit**
 
-## Uppgift 3.5 – Typografi
+## Uppgift 2.5 – Typografi
 Dags nu att se över sidans typografi, alltså hur typsnitt och läsbarheten kan förbättras på din sida.
 
 Tänk igenom typsnittsstorlekar, vilka typsnitt som ska användas, radavstånd etc. och implementera detta i din stilmall. Du ska i detta steg även se till att dina länkar (exklusive menyn) har ett enhetligt utseende och är lätta att urskilja från vanlig text. 
@@ -127,7 +126,7 @@ Tänk igenom typsnittsstorlekar, vilka typsnitt som ska användas, radavstånd e
 
 **Git-commit**
 
-## Uppgift 3.6 – Övrigt
+## Uppgift 2.6 – Övrigt
 Nu kan vi börja med ”finliret”, rätta till marginaler och stoppningar (padding). Dessutom ska du i denna uppgift se till att använda från css-filen inlänkade bakgrundsbilder på minst två ställen i koden. T.ex. kan du se till att lägga din logotyp som en bakgrundsbild och även infoga en liten ikon framför dina blogginlägg på startsidan. 
 
 ![.][css-bgimage1] ![.][css-bgimage2]
@@ -141,7 +140,7 @@ Har du inte kommenterat din css-kod under tiden du skrivit? Kanske dags att se �
 
 **Git-commit, commit, commit, commit…..**
 
-## Uppgift 3.7 – Ny bloggpost
+## Uppgift 2.7 – Ny bloggpost
 För att få laborera lite med bilder på våra sidor ska du nu skapa en ny bloggpost innehållandes ett flertal stycken med text samt även en bild (som nu länkas in med &lt;img&gt;-taggen då den hör till blogginläggets innehåll). 
 Texten kan vara av typen ”Lorem ipsum” men givetvis är det roliga om du kan skriva ett blogginlägg. Uppgiften blir att genom att sätta en klass på bilden ska man kunna bestämma hur bilden ska ligga i förhållande till texten.
 Klasserna är:
@@ -154,7 +153,7 @@ Vill du kan nu även ge en ram till bilden. Testa så att även din video som du
 
 **Git-commit**
 
-## Uppgift 3.8 – Laborationssidan
+## Uppgift 2.8 – Laborationssidan
 Stila nu på eget bevåg till laborationssidan så att exempelvis tabellen följer din sidas design och att den blir tydlig. 
 Kontaktformuläret lämnar vi till nästa laboration, men om du vill får du gärna redan nu ge dig på att snygga till det.
 
