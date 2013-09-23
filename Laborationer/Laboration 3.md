@@ -86,7 +86,7 @@ För att få testa på att använda CSS-sprites så ska du nu lägga till lite e
 
 Verktyget [http://spritegen.website-performance.org/](http://spritegen.website-performance.org/) kan du då ha stor nytta av.
 
-Om du använder den medföljande bildfilen så ser du att det finns två versioner av varje ikon. En svartvit och en färgad. Tanken är då att använda den svartvita på menyn och när muspekaren förs över ett menyalternativ så används den färgade ikonen. Bra att veta är att varje ikon i filen är 24*24 pixlar stor och mellanrummet mellan ikonerna är 24*24 pixlar.
+Om du använder den medföljande bildfilen så ser du att det finns två versioner av varje ikon. En svartvit och en färgad. Tanken är då att använda den svartvita på menyn och när muspekaren förs över ett menyalternativ så används den färgade ikonen. Bra att veta är att varje ikon i filen är 24\*24 pixlar stor och mellanrummet mellan ikonerna är 24\*24 pixlar.
 
 **Git-commit**
 
