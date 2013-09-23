@@ -1,4 +1,3 @@
-
 ## Inledning
 Vi kommer på denna laboration fortsätta med CSS och nu finslipa vår sida. Du kommer även att få träna lite extra på CSS genom att göra en ny layout på en separat sida och så långt det går försöka efterlikna en redan färdig design. I och med detta kommer du också att få testa att "forka" ett befintligt projekt på GitHub.
 
@@ -7,7 +6,7 @@ Vi fortsätter med css. Efter laborationen ska du:
 - Kunna stila formulär
 - Ordna utskriftsvänliga versioner
 - Kunna använda css-sprites
-- Ha en orientering om ny CSS3-tekniker.
+- Ha en orientering om nya CSS3-tekniker.
 
 ## Förberedelse
 Innan du kommer till laborationstillfället bör du vara så förberedd att du känner att du hinner genomföra och redovisa laborationen under det handledda tillfället. Du får givetvis göra laborationen helt klar i förväg och du har då möjlighet att utnyttja handledningstillfället för frågor och redovisning. 
