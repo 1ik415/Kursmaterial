@@ -55,7 +55,7 @@ Denna uppgift går ut på att du givet ett påbörjat html-projekt ska färdigst
 
 ![Fork][github-fork]
 
-3. Nu finns en kopia av ursprungs reprot på ditt GitHub-konto. Detta betyder att du också kan öppna detta i Cloud9.
+3. Nu finns en kopia av ursprungsreprot på ditt GitHub-konto. Detta betyder att du också kan öppna detta i Cloud9.
 
 4. Logga in på Cloud9 och skapa ett nytt, publikt workspace utifrån "uppgift3-3"
 
