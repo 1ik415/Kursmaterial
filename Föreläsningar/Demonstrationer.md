@@ -72,3 +72,8 @@ Vidare läsning:
 ### Pseudoklasser
 <iframe width="640" height="360" src="//www.youtube-nocookie.com/embed/ZYnjUd90Tgg" frameborder="0" allowfullscreen></iframe>
 
+### Typsnitt och texter
+<iframe width="640" height="360" src="//www.youtube.com/embed/SK9oKggYFoM" frameborder="0" allowfullscreen></iframe>
+
+### Färger
+<iframe width="480" height="360" src="//www.youtube.com/embed/Ozgpezyl5yw" frameborder="0" allowfullscreen></iframe>
