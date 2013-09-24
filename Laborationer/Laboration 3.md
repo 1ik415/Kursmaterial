@@ -6,7 +6,7 @@ Vi fortsätter med css. Efter laborationen ska du:
 - Kunna stila formulär
 - Ordna utskriftsvänliga versioner
 - Kunna använda css-sprites
-- Ha en orientering om ny CSS3-tekniker.
+- Ha en orientering om nya CSS3-tekniker.
 
 ## Förberedelse
 Innan du kommer till laborationstillfället bör du vara så förberedd att du känner att du hinner genomföra och redovisa laborationen under det handledda tillfället. Du får givetvis göra laborationen helt klar i förväg och du har då möjlighet att utnyttja handledningstillfället för frågor och redovisning. 
