@@ -18,7 +18,7 @@ När du anser dig vara klar med laborationen kontrollerar du att din källkod up
 
 Efter **minst** varje uppgift i denna handledning ska du göra en commit till ditt GIT-repositorie. 
 
-# Plagiat
+## Plagiat
 Laborationen ska genomföras enskilt. Du får givetvis fråga klasskamrater om hjälp men du ska skriva din egen kod och kunna svara för varför du skrivit din kod på det sätt du gjort. Vid fuskmisstanke lämnas misstankar samt berörda dokument över till universitetets disciplinnämnd.
 
 
