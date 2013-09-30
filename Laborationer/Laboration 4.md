@@ -54,9 +54,9 @@ Har du en handhållen enhet är det givetvis enkelt att testa din webbsida.
 ### Testa din webbsida med en emulator
 Om du sitter på en egen dator kan du installera en emulator för exempelvis Windows Phone, Android eller iPhone. 
 
-Windows Phone: [http://create.msdn.com](http://create.msdn.com) (Windows)
-Android: [http://developer.android.com](http://developer.android.com)
-iPhone: [http://developer.apple.com/technologies/tools/](http://developer.apple.com/technologies/tools/) (OS X)
+* Windows Phone: [http://create.msdn.com](http://create.msdn.com) (Windows)
+* Android: [http://developer.android.com](http://developer.android.com)
+* iPhone: [http://developer.apple.com/technologies/tools/](http://developer.apple.com/technologies/tools/) (OS X)
 
 Du kan sedan lägga upp din webbsida på en webserver och surfa in till sidan via emulatorns inbyggda webbläsare. Du får då se sidan så som den kommer att se ut på en skarp enhet.
 
