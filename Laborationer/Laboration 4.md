@@ -1,4 +1,3 @@
-
  
 ## Inledning
 Denna laboration fokuserar helt och hållet på att göra justeringar av din sajt så att den kommer att fungera på mobila enheter. 
@@ -32,15 +31,15 @@ Går man in på sidan med en enhet som har en skärm som identifierar sig om sma
 
 ![Liggande layout][mobile-landscape]
 
-- Du ska skapa en anpassad stilmall för skärmar smalare än 480 pixlar.
+- Du ska skapa en anpassad stilmall för skärmar smalare än 481 pixlar.
 - Samtliga sidor på din laborationsportal ska ha den anpassade stilmallen.
 - Allt innehåll ska vara lika tillgängligt som tidigare. Det är designen som ska göras om. Dock kan du fundera på om visst innehåll ska tonas upp eller ner beroende på om man sitter på en mobil enheter eller inte.
 - Den ordinarie stilmallen ska fortfarande användas om man går in med en enhet bredare än 480px.
-- När användaren surfar in med en smartphone så ska man inte behöva zooma eller ens kunna zooma på sidan.
+- När användaren surfar in med en smartphone så ska man inte behöva zooma på sidan.
 - Användaren ska inte behöva scrolla i x-led (horisontellt).
 - Om användaren väljer att spara din sajt som en genväg från hemskärmen i iOS så ska du erbjuda en speciell ikon för detta.
 - Arbeta igenom formuläret så att det lämpar sig för mobila 	enheter. 
-- Utöver ovanstående ska din sida förses med en så kallad "favicon" ![Favicon][favicon]
+- Utöver ovanstående ska din sida förses med en så kallad "favicon". ![Favicon][favicon]
 
 ![Menu][mobile-menu]
 
@@ -66,7 +65,7 @@ Ingen emulator finns installerad på skolans datorer.
 ### Testa din webbsida utan telefon och emulator
 Har du ingen telefon att testa på i närheten så kan du testa att allt fungerar någorlunda genom att temporärt plocka bort ordet "device" ur media querien:
 
-Då kommer stilmallen istället att användas då webbläsarfönster är smalare än 480px. Du kan nu testa sidan genom att ändra storlek på ditt webbläsarfönster. När fönstret blir smalare än 480 pixlar bör din layout ändras.
+Då kommer stilmallen istället att användas då webbläsarfönster är smalare än 481px. Du kan nu testa sidan genom att ändra storlek på ditt webbläsarfönster. När fönstret blir smalare än 481 pixlar bör din layout ändras.
 
 Tyvärr kan du inte här se vad som händer om du inte anger metataggen för att styra viewport, men denna ska vara med ändå.
 
