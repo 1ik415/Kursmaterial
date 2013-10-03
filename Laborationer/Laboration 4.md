@@ -27,7 +27,7 @@ Denna handledning ligger på [GitHub](https://github.com/1ik415/Kursmaterial/blo
 ## Uppgift 4.1 – En mobilare portal
 Du ska i denna uppgift stila om din laborationsportal så att den lämpar sig att användas på en enhet med "mindre" skärm, exempelvis en iPhone eller en Androidtelefon. 
 
-Går man in på sidan med en enhet som har en skärm som identifierar sig om smalare än 480 pixlar så ska man få en annan layout än vad som är fallet på en vanlig skärm. Tänk på att exempelvis iPhone och Androidtelefoner inte använder handheld-stilmallar utan identifierar sig som en skärm så du kommer att behöva jobba med CSS3 media queries för att kunna skapa en stilmall lämpad för smartphonen. 
+Går man in på sidan med en enhet som har en skärm som identifierar sig om smalare än 481 pixlar så ska man få en annan layout än vad som är fallet på en vanlig skärm. Tänk på att exempelvis iPhone och Androidtelefoner inte använder handheld-stilmallar utan identifierar sig som en skärm så du kommer att behöva jobba med CSS3 media queries för att kunna skapa en stilmall lämpad för smartphonen. 
 
 ![Liggande layout][mobile-landscape]
 
