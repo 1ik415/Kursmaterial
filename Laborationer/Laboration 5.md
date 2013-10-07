@@ -61,6 +61,9 @@ Du ska i denna uppgift skapa ett fotogalleri där bilder verkar ligga utslängda
 
 När du kodar ska du se till att göra flera commits. Gör en commit per problem som du löser i uppgiften.
 
+Börja med att skapa en katalog "gallery" i roten på ditt huvudrepro (alltså på samma nivå som "pages", "css").
+I katalogen gallery skapar du sedan html-filen "index.html". CSS-filen lägger du sedan på lämpligt ställe.
+
 Det finns några krav på uppgiften:
 
 - HTML-koden ska vara ren och bildtexten får enbart ligga som värde på attributet "title" på lämplig tag. (se film)
