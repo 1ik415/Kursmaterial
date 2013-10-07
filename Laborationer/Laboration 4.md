@@ -43,7 +43,7 @@ Går man in på sidan med en enhet som har en skärm som identifierar sig om sma
 
 ![Menu][mobile-menu]
 
-När du kodar ska du se till att göra flera commits. Gör en commit per problem som du löser i laborationen.
+När du kodar ska du se till att göra flera commits. Gör en commit per problem som du löser i uppgiften.
 
 ## Hur testa?
 

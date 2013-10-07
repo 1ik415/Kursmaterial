@@ -13,7 +13,7 @@ Innan du kommer till laborationstillfället bör du vara så förberedd att du k
 
 Läs igenom **hela** laborationshandledningen innan du påbörjar laborationen.
 
-# Genomförande
+## Genomförande
 Utför laborationens uppgifter och moment samt dokumentera vad du kommer fram till på de olika delarna. Vid redovisning av laborationen ska du kunna besvara frågor om hur du har löst de olika delarna och varför de är lösta på det sätt du löst dem på.
 När du anser dig vara klar med laborationen kontrollerar du att din källkod uppfyller laborationens samtliga krav.
 
@@ -58,6 +58,8 @@ Du ska i denna uppgift skapa ett fotogalleri där bilder verkar ligga utslängda
 <iframe width="560" height="315" src="//www.youtube.com/embed/_E4lq_IFDlk" frameborder="0" allowfullscreen></iframe>
 (Demo: [http://youtu.be/_E4lq_IFDlk](http://youtu.be/_E4lq_IFDlk))
 
+När du kodar ska du se till att göra flera commits. Gör en commit per problem som du löser i uppgiften.
+
 Det finns några krav på uppgiften:
 - HTML-koden ska vara ren och bildtexten får enbart ligga som värde på attributet "title" på lämplig tag. (se film)
 - Under respektive bild ska bildtexten synas. 
@@ -85,10 +87,15 @@ CSS-egenskaper och selektorer som du troligtvis kommer att behöva använda (lä
 - Prefixen –moz-, -webkit-, -o-. behöver användas för många av egenskaperna.  Exempelvis: "-moz-transform"
 - Förutom att använda webbläsarspecifika prefix ska du använda de CSS3-standardiserade namnen, exempelvis "transform".
 - Troligtvis vill du låta transitionen påverka samtliga egenskaper, det vill säga "all"
-- För att få "slumpvis" fontstorlek och rotation kan du använda nth-child-selektorn för att rotera exempelvis var 3e bild -5 grader och var 5e bild 10grader etc.
+- För att få "slumpvis" fontstorlek och rotation kan du använda nth-child-selektorn för att rotera exempelvis var 3e bild -5 grader och var 5e bild 10 grader etc.
 -  Du kommer att märka att du inte kan använda pseudoklassen "after" och css-egenskapen "content" på en img-tagg vilket gör att det kan vara lämpligt att lägga title-attributet på en annan tagg än img.
 - Sätt "position:relative;" på bilderna så kommer z-index även att fungera i Chrome.
 - Tänk på att många av egenskaperna är experimentella i webbläsarna vilket gör att buggar kan förekomma. 
 
 
 Givetvis har du full konstnärlig frihet att utforma delar av uppgiften som du vill, men se till att nyttja grundkrav som transitions, transformations, typsnitt etc.
+
+## Postludium
+Du har nu genomfört laboration 5 och du ska nu skapa en release för detta på GitHub.
+Se till att "Tag version" blir `l05` (Ludvig, nolla, femma).
+Välj en lämplig titel.
