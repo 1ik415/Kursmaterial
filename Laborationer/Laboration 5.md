@@ -31,6 +31,7 @@ HTML5 introducerar en uppsättning nya taggar som är tänkta till att ge våra 
 Förutom de delar som du redan har på din startsida så ska du lägga till "kommentarer" till varje skriven bloggpost.
 
 Uppgiften ska lösas genom att använda de nya strukturella taggar som finns i HTML5. Taggarna ska användas i de fall de är lämpliga. Taggar att använda här är exempelvis:
+
 - Header
 - Footer
 - Article
@@ -84,12 +85,12 @@ CSS-egenskaper och selektorer som du troligtvis kommer att behöva använda (lä
 
 ### Tips:
 - Övergångar med ”transitions” påverkar alla egenskaper som ändras på det objekt som har transition satt.
-- Prefixen –moz-, -webkit-, -o-. behöver användas för många av egenskaperna.  Exempelvis: "-moz-transform"
-- Förutom att använda webbläsarspecifika prefix ska du använda de CSS3-standardiserade namnen, exempelvis "transform".
+- Prefixen `–moz-`, `-webkit-`, `-o-`. behöver användas för många av egenskaperna.  Exempelvis: `-moz-transform`
+- Förutom att använda webbläsarspecifika prefix ska du använda de CSS3-standardiserade namnen, exempelvis `transform`.
 - Troligtvis vill du låta transitionen påverka samtliga egenskaper, det vill säga "all"
 - För att få "slumpvis" fontstorlek och rotation kan du använda nth-child-selektorn för att rotera exempelvis var 3e bild -5 grader och var 5e bild 10 grader etc.
 -  Du kommer att märka att du inte kan använda pseudoklassen "after" och css-egenskapen "content" på en img-tagg vilket gör att det kan vara lämpligt att lägga title-attributet på en annan tagg än img.
-- Sätt "position:relative;" på bilderna så kommer z-index även att fungera i Chrome.
+- Sätt `position:relative;` på bilderna så kommer z-index även att fungera i Chrome.
 - Tänk på att många av egenskaperna är experimentella i webbläsarna vilket gör att buggar kan förekomma. 
 
 
