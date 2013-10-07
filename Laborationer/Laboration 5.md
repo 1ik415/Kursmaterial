@@ -62,6 +62,7 @@ Du ska i denna uppgift skapa ett fotogalleri där bilder verkar ligga utslängda
 När du kodar ska du se till att göra flera commits. Gör en commit per problem som du löser i uppgiften.
 
 Det finns några krav på uppgiften:
+
 - HTML-koden ska vara ren och bildtexten får enbart ligga som värde på attributet "title" på lämplig tag. (se film)
 - Under respektive bild ska bildtexten synas. 
 - Ett externt typsnitt ska laddas in på valfritt sätt och vara det typsnitt som används för att skriva ut texten under bilderna.
@@ -84,6 +85,7 @@ CSS-egenskaper och selektorer som du troligtvis kommer att behöva använda (lä
 - font-family
 
 ### Tips:
+
 - Övergångar med ”transitions” påverkar alla egenskaper som ändras på det objekt som har transition satt.
 - Prefixen `–moz-`, `-webkit-`, `-o-`. behöver användas för många av egenskaperna.  Exempelvis: `-moz-transform`
 - Förutom att använda webbläsarspecifika prefix ska du använda de CSS3-standardiserade namnen, exempelvis `transform`.
