@@ -117,7 +117,7 @@ När ni nu börjar implementera er kod är det bra om ni börjar med det stora f
 ## Steg 3 – Redovisning
 Observera att projektet enbart bedöms med U eller G och räknas in i kursens laborationsmoment.
 
-Er uppgift ska redovisas inför klassen på ett av redovisningstillfällena i sista kursveckan. Ni bokar själv vilket pass ni vill redovisa på.
+Er uppgift ska redovisas inför klassen på ett av redovisningstillfällena i sista kursveckan. Ni [bokar själv vilket pass ni vill redovisa](//coursepress.lnu.se/kurs/webbteknisk-introduktion/laborationer/webbsideprojekt-redovisningstider/) på.
 
 Ni ska förbereda en presentation på 5-10 minuter och ni ska vid detta tillfälle vara beredda att svara på frågor angående era lösningar. 
 Ni ska se denna redovisning som er chans att sälja in produkten. En dålig presentation kommer antagligen få en bra produkt att verkar halvdålig, medan en bra presentation kan sälja en sämre produkt. Se därför till att lägga ner lite tid på att förbereda presentationen, den är alltid mycket viktig.
