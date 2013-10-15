@@ -23,7 +23,7 @@ Efter **minst** varje uppgift i denna handledning ska du göra en commit till di
 Laborationen ska genomföras enskilt. Du får givetvis fråga klasskamrater om hjälp men du ska skriva din egen kod och kunna svara för varför du skrivit din kod på det sätt du gjort. Vid fuskmisstanke lämnas misstankar samt berörda dokument över till universitetets disciplinnämnd.
 
 ## Föreslå ändringar
-Denna handledning ligger på [GitHub](https://github.com/1ik415/Kursmaterial/blob/master/Laborationer/Laboration%206.md) om du vill föreslå ändringar eller hålla koll på vad de senaste uppdateringarna innebar.
+Denna handledning ligger på [GitHub](https://github.com/1ik415/Kursmaterial/blob/master/Laborationer/Laboration%205.md) om du vill föreslå ändringar eller hålla koll på vad de senaste uppdateringarna innebar.
 
 ## Uppgift 5.1 – Sidstruktur
 HTML5 introducerar en uppsättning nya taggar som är tänkta till att ge våra sidor bättre struktur och semantik. Du ska i denna uppgift testa att använda dem. Tanken är att du ska skriva om startsidan på din blogg så att den använder de nya taggarna i HTML5. Vill du hellre skapa en helt ny sida så är det tillåtet. Se då till att länka till sidan från din laborationsportal.
@@ -90,11 +90,11 @@ CSS-egenskaper och selektorer som du troligtvis kommer att behöva använda (lä
 ### Tips:
 
 - Övergångar med ”transitions” påverkar alla egenskaper som ändras på det objekt som har transition satt.
-- Prefixen `–moz-`, `-webkit-`, `-o-`. behöver användas för många av egenskaperna.  Exempelvis: `-moz-transform`
+- Prefixet `-webkit-` behöver användas för många av egenskaperna.  Exempelvis: `-webkit-transform`
 - Förutom att använda webbläsarspecifika prefix ska du använda de CSS3-standardiserade namnen, exempelvis `transform`.
 - Troligtvis vill du låta transitionen påverka samtliga egenskaper, det vill säga "all"
 - För att få "slumpvis" fontstorlek och rotation kan du använda nth-child-selektorn för att rotera exempelvis var 3e bild -5 grader och var 5e bild 10 grader etc.
--  Du kommer att märka att du inte kan använda pseudoklassen "after" och css-egenskapen "content" på en img-tagg vilket gör att det kan vara lämpligt att lägga title-attributet på en annan tagg än img.
+- Du kommer att märka att du inte kan använda pseudoklassen "after" och css-egenskapen "content" på en img-tagg vilket gör att det kan vara lämpligt att lägga title-attributet på en annan tagg än img.
 - Sätt `position:relative;` på bilderna så kommer z-index även att fungera i Chrome.
 - Tänk på att många av egenskaperna är experimentella i webbläsarna vilket gör att buggar kan förekomma. 
 
