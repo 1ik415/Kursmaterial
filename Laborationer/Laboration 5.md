@@ -28,7 +28,7 @@ Denna handledning ligger på [GitHub](https://github.com/1ik415/Kursmaterial/blo
 ## Uppgift 5.1 – Sidstruktur
 HTML5 introducerar en uppsättning nya taggar som är tänkta till att ge våra sidor bättre struktur och semantik. Du ska i denna uppgift testa att använda dem. Tanken är att du ska skriva om startsidan på din blogg så att den använder de nya taggarna i HTML5. Vill du hellre skapa en helt ny sida så är det tillåtet. Se då till att länka till sidan från din laborationsportal.
 
-Förutom de delar som du redan har på din startsida så ska du lägga till "kommentarer" till varje skriven bloggpost.
+Förutom de delar som du redan har på din startsida så ska du lägga till "kommentarer" till varje skriven bloggpost. Du ska inte skriva en fungerade kommentarsfunktion utan stoppa in påhittade kommentarer och fundera över vilka strukturelement som bör användas till dessa.
 
 Uppgiften ska lösas genom att använda de nya strukturella taggar som finns i HTML5. Taggarna ska användas i de fall de är lämpliga. Taggar att använda här är exempelvis:
 
