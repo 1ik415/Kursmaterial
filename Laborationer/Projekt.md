@@ -94,7 +94,7 @@ Arbetar ni i en grupp så forkar en av er projektet och sätter de andra projekt
 ### Inlämning
 I den fork ni gjort ovan så finns katalogen "doc" och i den hittar ni filen "Projektbeskrivning.md". Det är i denna fil ni ska skriva projektbeskrivningen i så kallad "Mark Down". Kort information om detta hittar ni i filen "doc/README.md".
 
-När projektbeskrivningen är klar så skickar ni följande i ett mail till [1ik415@lnu.se](mailto:1ik415.lnu.se) senast deadline:
+När projektbeskrivningen är klar så skickar ni följande i ett mail till [1ik415@lnu.se](mailto:1ik415@lnu.se) senast deadline:
 
 * Personuppgifter på samtliga projektdeltagare (Personnummer, användarnamn, för- och efternamn)
 * Länk till projektets GitHub-repro.
