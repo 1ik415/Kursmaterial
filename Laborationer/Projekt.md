@@ -80,9 +80,9 @@ Exempel på detaljer som kan skrivas i tidsschemat:
 - Förberedelse inför presentation
 - Presentation
 
-Tidsplanen publiceras tillsammans med projektbeskrivningen. Skapa gärna tidsschemat som ett kalkylblad i Google Drive ([https://drive.google.com](https://drive.google.com)). När tisschemat lämnas in ska detta vara i pdf-format.
+Tidsplanen publiceras tillsammans med projektbeskrivningen. Skapa gärna tidsplanen som ett kalkylblad i Google Drive ([https://drive.google.com](https://drive.google.com)). När tisplanen lämnas in ska detta vara i pdf-format.
 
-Tidsschemat ska vara i form av ett GANTT-schema. Wikipedia beskriver till exempel GANTT-schema:
+Tidsplanen ska vara i form av ett GANTT-schema. Wikipedia beskriver till exempel GANTT-schema:
 [http://en.wikipedia.org/wiki/Gantt_chart](http://en.wikipedia.org/wiki/Gantt_chart)
 
 ### GitHub-repro
