@@ -86,23 +86,19 @@ Cloud9 har inget stöd i för Git i det grafiska gränssnittet utan du måste ar
 
 Terminalen i Cloud9: ![Cloud 9 - terminalen][c9-terminal]
 
-Eftersom vi valt att arbeta med grenen "gh-pages" i GitHub så bör också denna gren vara förvald när du startar Cloud9. Du kan se vilken gren som är vald genom att se vad som står inom (paranteser) i kommandotolken. Står det 
-
-`….. (gh-pages) $ _` 
-
-så är allting rätt. Har du valt att inte radera din gren "master" så kommer troligtvis denna vara vald av Cloud9. I så fall kan byta gren genom att skriva:
+Eftersom vi valt att arbeta med grenen "gh-pages" i GitHub så bör också denna gren vara förvald när du startar Cloud9. Du kan se vilken gren som är vald genom att se vad som står inom (paranteser) i kommandotolken. Står det `….. (gh-pages) $ _` så är allting rätt. Har du valt att inte radera din gren "master" så kommer troligtvis denna vara vald av Cloud9. I så fall kan byta gren genom att skriva:
 
 `git checkout gh-pages` och tryck enter.
 
 För att undvika att Cloud9:s interna projektfiler läggs till i vårt git-repro så ska vi skapa en fil som talar om för git att ignorera dessa filer. 
-Skapa en ny fil genom att högerklicka i filträdet och välja ”New File”. Döp filen till ´.gitignore´(Observera den inledande punkten).
+Skapa en ny fil genom att högerklicka i filträdet och välja ”New File”. Döp filen till `.gitignore`(Observera den inledande punkten).
 Lägg till följande rader i filen och spara filen (cmd+s eller ctrl+s):
-´.c9/
-.c9-revisions/´
+`.c9/`
+`.c9-revisions/`
 
 Öppna nu filen "README.md" och gör någon förändring i denna och spara dina ändringar.
 
-* För att slippa en varning när vi så småningom gör en ”push” till github så ska vi konfigurera git att använda metoden ”simple” vid en ”push”. Gör det genom att exekvera: ´git config —global push.default simple´  
+* För att slippa en varning när vi så småningom gör en ”push” till github så ska vi konfigurera git att använda metoden ”simple” vid en ”push”. Gör det genom att exekvera: `git config —global push.default simple`  
 
 
 Vi ska nu göra en "commit" samt synka våra ändringar till GitHub. 
@@ -111,10 +107,10 @@ Vi ska nu göra en "commit" samt synka våra ändringar till GitHub.
 2. Gör en commit genom att exekvera (*skriva och trycka enter*) kommandot: `git commit -a 'Min första commit!'`
 3. Synkronisera med GitHub-repositoriet genom att exekvera kommandot:
 `git push`
-I detta skede kan du få en varning för att GitHub inte är en känd källa. Lägg till den som sådan genom att svara ”yes” på frågan.
+I detta skede kan du få en varning för att GitHub inte är en känd källa. Lägg till den som sådan genom att svara (skriva) `yes` på frågan.
 
 Nu kan du gå till GitHub och kontrollera att alla ändringar du gjort i din readme-fil också finns på GitHub. 
-Steg 1 till 3 ovan ska du göra efter varje uppgift i denna handledning. Det gör att du får spårbarhet i din kod och enkelt kan gå tillbaka till tidigare versioner av din kod. Du kommer att lära dig mer om versionshantering i kommande kurser, men detta räcker för att komma igång.
+Steg 1 till 3 ovan ska du göra efter varje uppgift i denna handledning. Det gör att du får spårbarhet i din kod och enkelt kan gå tillbaka till tidigare versioner av din kod. Du kommer att lära dig mer om versionshantering i kommande moment i kursen och kommande kurser, men detta räcker för att komma igång.
 
 Du är nu redo att köra igång och koda! För att testa och se resultatet av ditt kodande så kan du klicka på "Preview" i Cloud9. Då ser du förändringar så fort du sparar ett dokument.
 
@@ -387,6 +383,6 @@ Var så god att påbörja arbetet med laboration 2!
 
 [c9-login]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/c9-login.png
 
-[c9-go2dash]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/c9-go2dash.png
+[c9-go2dash]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/c9-go2dashboard.png
 
 [c9-terminal]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/c9-terminal.png
