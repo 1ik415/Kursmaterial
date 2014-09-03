@@ -217,7 +217,7 @@ Användaren surfar in till sidan index.html. Denna sida innehåller länkar till
 Användaren klickar på länken till sidan "presentation.html" och tas till sidan. Väl där ser användaren samma meny som på startsidan. Se bilder nedan.
 
 Bygg nu upp länkstrukturen på dina sidor enligt beskrivningen ovan. 
-Länkarn ska ligga i en osorterad lista.
+Länkarna ska ligga i en osorterad lista.
 Menyn ska se likadan ut oavsett vilken sida man besöker. På exempelsidorna har även en "tagline" lagts till under huvudrubriken. 
 ![Exempel på utseende][lankar]
 
