@@ -98,7 +98,7 @@ Lägg till följande rader i filen och spara filen (cmd+s eller ctrl+s):
 
 Öppna nu filen "README.md" och gör någon förändring i denna och spara dina ändringar.
 
-* För att slippa en varning när vi så småningom gör en ”push” till github så ska vi konfigurera git att använda metoden ”simple” vid en ”push”. Gör det genom att exekvera: `git config —global push.default simple`  
+* För att slippa en varning när vi så småningom gör en ”push” till github så ska vi konfigurera git att använda metoden ”simple” vid en ”push”. Gör det genom att exekvera: `git config --global push.default simple`  
 
 
 Vi ska nu göra en "commit" samt synka våra ändringar till GitHub. 
