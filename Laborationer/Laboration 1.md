@@ -94,17 +94,24 @@ så är allting rätt. Har du valt att inte radera din gren "master" så kommer 
 
 `git checkout gh-pages` och tryck enter.
 
-
-**TODO:** Lägg till information om .gitignore för att gömma .c9revisions-katalogen
+För att undvika att Cloud9:s interna projektfiler läggs till i vårt git-repro så ska vi skapa en fil som talar om för git att ignorera dessa filer. 
+Skapa en ny fil genom att högerklicka i filträdet och välja ”New File”. Döp filen till ´.gitignore´(Observera den inledande punkten).
+Lägg till följande rader i filen och spara filen (cmd+s eller ctrl+s):
+´.c9/
+.c9-revisions/´
 
 Öppna nu filen "README.md" och gör någon förändring i denna och spara dina ändringar.
 
+* För att slippa en varning när vi så småningom gör en ”push” till github så ska vi konfigurera git att använda metoden ”simple” vid en ”push”. Gör det genom att exekvera: ´git config —global push.default simple´  
+
+
 Vi ska nu göra en "commit" samt synka våra ändringar till GitHub. 
 
-1. Skriv: `git add .` i terminalen och tryck enter. *Eventuellt nytillagda filer läggs nu till till versionshanteringen. Även några filer från Cloud9s konfiguration läggs till men vi bryr oss inte om det i nuläget.*
-2. Gör en commit genom att exekvera (*skriva och trycka enter*) kommandot: `git commit -am 'Min första commit!'`
+1. Skriv: `git add .` i terminalen och tryck enter. *Eventuellt nytillagda och ändrade filer läggs nu till till versionshanteringen (sk. stageing). Eftersom vi har en .gitignore-fil så kommer inte Cloud9s interna projektfiler läggas till.*
+2. Gör en commit genom att exekvera (*skriva och trycka enter*) kommandot: `git commit -a 'Min första commit!'`
 3. Synkronisera med GitHub-repositoriet genom att exekvera kommandot:
 `git push`
+I detta skede kan du få en varning för att GitHub inte är en känd källa. Lägg till den som sådan genom att svara ”yes” på frågan.
 
 Nu kan du gå till GitHub och kontrollera att alla ändringar du gjort i din readme-fil också finns på GitHub. 
 Steg 1 till 3 ovan ska du göra efter varje uppgift i denna handledning. Det gör att du får spårbarhet i din kod och enkelt kan gå tillbaka till tidigare versioner av din kod. Du kommer att lära dig mer om versionshantering i kommande kurser, men detta räcker för att komma igång.
