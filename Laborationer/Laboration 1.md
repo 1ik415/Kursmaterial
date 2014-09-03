@@ -75,8 +75,7 @@ Cloud9 är en molnbaserad utvecklingsmiljö med stark koppling mot bland annat G
 2. Gå till [](https://c9.io/) och välj att logga in via GitHub.
 ![Logga in på Cloud9 via GitHub][c9-login]
 3. Acceptera att Cloud9 får komma åt ditt GitHub-konto.
-4. Du kommer att klara dig bra på gratisvarianten av Cloud9 för kursernas skulle så klicka bort rutan om att uppgradera till en 
-betalningsplan.
+4. Välj att gå till din ”Dasboard” ![Gå till Dashboard][c9-go2dash]
 5. Du bör nu se ditt GitHub-repositorie i vänstermenyn. Klicka på det.
 6. För att klona repositoriet till Cloud9 så att du kan börja editera dina filer så klickar du på "Clone to edit".
 Du får välja om du vill ha ditt projekt öppet eller privat. Vilket som går bra.
@@ -380,5 +379,7 @@ Var så god att påbörja arbetet med laboration 2!
 [github-deletemaster]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/github-deletemaster.png
 
 [c9-login]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/c9-login.png
+
+[c9-go2dash]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/c9-go2dash.png
 
 [c9-terminal]: https://github.com/1ik415/Kursmaterial/raw/master/Laborationer/pics/c9-terminal.png
