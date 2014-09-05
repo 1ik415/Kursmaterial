@@ -104,7 +104,7 @@ Lägg till följande rader i filen och spara filen (cmd+s eller ctrl+s):
 Vi ska nu göra en "commit" samt synka våra ändringar till GitHub. 
 
 1. Skriv: `git add .` i terminalen och tryck enter. *Eventuellt nytillagda och ändrade filer läggs nu till till versionshanteringen (sk. stageing). Eftersom vi har en .gitignore-fil så kommer inte Cloud9s interna projektfiler läggas till.*
-2. Gör en commit genom att exekvera (*skriva och trycka enter*) kommandot: `git commit -a 'Min första commit!'`
+2. Gör en commit genom att exekvera (*skriva och trycka enter*) kommandot: `git commit -am 'Min första commit!'`
 3. Synkronisera med GitHub-repositoriet genom att exekvera kommandot:
 `git push`
 I detta skede kan du få en varning för att GitHub inte är en känd källa. Lägg till den som sådan genom att svara (skriva) `yes` på frågan.
