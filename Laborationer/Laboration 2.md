@@ -35,11 +35,11 @@ För dig som väljer att göra laborationen utan att följa laborationshandledni
 - Ingen stilmallskod får finnas i html-dokumenten
 - Din layout ska ha minst två kolumner. 
 - Layouten ska vara centrerad på sidan.
-- Du ska kunna redogöra för layouten i uppgift 3.2
+- Du ska kunna redogöra för layouten i uppgift 2.2
 - Du ska ha en genomtänkt färgsättning och typografi
-- Kraven för menyn i uppgift 3.4 ska vara uppfyllda.
+- Kraven för menyn i uppgift 2.4 ska vara uppfyllda.
 - Minst två bakgrundsbilder ska länkas in via css
-- Blogginlägg ska vara tydligt markerade och innehålla bilder som kan vänster eller högerställas. (Uppgift 3.7)
+- Blogginlägg ska vara tydligt markerade och innehålla bilder som kan vänster eller högerställas. (Uppgift 2.7)
 
 Läs igenom hela handledningen även om du inte kommer att följa den.
 
