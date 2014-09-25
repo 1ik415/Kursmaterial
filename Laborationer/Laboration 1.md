@@ -114,6 +114,20 @@ Steg 1 till 3 ovan ska du göra efter varje uppgift i denna handledning. Det gö
 
 Du är nu redo att köra igång och koda! För att testa och se resultatet av ditt kodande så kan du klicka på "Preview" i Cloud9. Då ser du förändringar så fort du sparar ett dokument.
 
+> ###__Relativa länkar i Cloud9, en vanlig orsak till problem__
+>
+> Cloud9 hanterar relativa länkar lite eget och godkänner sökvägar som inte godkänns när sidan går  "live". Om du inte får bilder, CSS eller annat att ladda när du försöker besöka din labb på github.io är det mest troligen relativa länkar som spökar. För att lösa detta problem, se över dina länkar. Antagligen har du gjort en felaktig länkning och inlett sökvägen med `/`. 
+>För att lösa problemet, ta bort den inledande `/`.  
+
+>__Exempel:__  
+
+>Trasig länk som endast fungerar på Cloud9:  
+`<a href="/pages/about.html">About</a>`
+  
+>Korrekt länk som fungerar överallt:  
+`<a href="pages/about.html">About</a>`
+
+
  
 ## Uppgift 1.2 – Ett första dokument
 Under kursens laborationer kommer du steg för steg att bygga upp en blogg, eller enklare hemsida som ska kunna användas för att bland annat presentera laborationer på. 
