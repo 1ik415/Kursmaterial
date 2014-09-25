@@ -116,12 +116,12 @@ Du är nu redo att köra igång och koda! För att testa och se resultatet av di
 
 > ###__Relativa länkar i Cloud9, en vanlig orsak till problem__
 >
-> Cloud9 hanterar relativa länkar lite eget och godkänner sökvägar som inte godkänns när sidan går  "live". Om du inte får bilder, CSS eller annat att ladda när du försöker besöka din labb på github.io är det mest troligen relativa länkar som spökar. För att lösa detta problem, se över dina länkar. Antagligen har du gjort en felaktig länkning och inlett sökvägen med `/`. 
+Cloud9 och GitHub.io hanterar relativa länkar olika vilket gör att länkar om fungerar i Cloud9 kanske inte kommer att fungera _live_ på Github-pages. Om du inte får bilder, CSS eller annat att ladda när du försöker besöka din labb på github.io är det mest troligen relativa länkar som spökar. För att lösa detta problem, se över dina länkar. Antagligen har du inlett sökvägen med `/`. 
 >För att lösa problemet, ta bort den inledande `/`.  
 
 >__Exempel:__  
 
->Trasig länk som endast fungerar på Cloud9:  
+>Trasig länk som endast fungerar på Cloud9 (Eftersom / refererar till din arbetskatalog):  
 `<a href="/pages/about.html">About</a>`
   
 >Korrekt länk som fungerar överallt:  
