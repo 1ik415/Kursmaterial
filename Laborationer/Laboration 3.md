@@ -41,7 +41,7 @@ Arbeta gärna om typografin till något du tycker lämpar sig för utskrift och 
 
 Länkar till externa webbplatser ska skrivas ut i sin helhet när man skriver ut sidan. 
 
-PS. Du kan i alla webbläsare förhandsgranska hur din sida kommer att se ut vid utskrift så att du slipper ödsla träd på detta.
+PS. Du kan i alla webbläsare förhandsgranska hur din sida kommer att se ut vid utskrift så att du slipper ödsla tid på detta.
 
 **Git-commit**
 
