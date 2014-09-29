@@ -36,7 +36,7 @@ Går man in på sidan med en enhet som har en skärm som identifierar sig om sma
 - Allt innehåll ska vara lika tillgängligt som tidigare. Det är designen som ska göras om. Dock kan du fundera på om visst innehåll ska tonas upp eller ner beroende på om man sitter på en mobil enheter eller inte.
 - Den ordinarie stilmallen ska fortfarande användas om man går in med en enhet bredare än 480px.
 - När användaren surfar in med en smartphone så ska man inte behöva zooma på sidan.
-- Användaren ska inte behöva scrolla i x-led (horisontellt).
+- Användaren ska inte behöva skrolla i x-led (horisontell skrollning. Dock är det tillåtet för t.ex. tabellen på laborationssidan).
 - Om användaren väljer att spara din sajt som en genväg från hemskärmen i iOS så ska du erbjuda en speciell ikon för detta.
 - Arbeta igenom formuläret så att det lämpar sig för mobila 	enheter. 
 - Utöver ovanstående ska din sida förses med en så kallad "favicon". ![Favicon][favicon]
