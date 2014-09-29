@@ -51,7 +51,7 @@ När du kodar ska du se till att göra flera commits. Gör en commit per problem
 Har du en handhållen enhet är det givetvis enkelt att testa din webbsida.
 
 ### Testa din webbsida med en emulator
-Om du sitter på en egen dator kan du installera en emulator för exempelvis Windows Phone, Android eller iPhone. 
+Om du sitter på en egen dator kan du installera en emulator för exempelvis Windows Phone, Android eller iPhone. Detta är dock ganska tidskrävande och kan vara "overkill" för denna laboration.
 
 * Windows Phone: [http://create.msdn.com](http://create.msdn.com) (Windows)
 * Android: [http://developer.android.com](http://developer.android.com)
@@ -63,11 +63,7 @@ Ingen emulator finns installerad på skolans datorer.
 
 
 ### Testa din webbsida utan telefon och emulator
-Har du ingen telefon att testa på i närheten så kan du testa att allt fungerar någorlunda genom att temporärt plocka bort ordet "device" ur media querien:
-
-Då kommer stilmallen istället att användas då webbläsarfönster är smalare än 481px. Du kan nu testa sidan genom att ändra storlek på ditt webbläsarfönster. När fönstret blir smalare än 481 pixlar bör din layout ändras.
-
-Tyvärr kan du inte här se vad som händer om du inte anger metataggen för att styra viewport, men denna ska vara med ändå.
+Har du ingen telefon att testa på i närheten så kan du testa att allt fungerar genom att använda utvecklingsverktyget i t.ex. Chrome. Genom att klicka på "telefonsymbolen" så får du upp en emulator som fungerar bra för att testa laborationen.
 
 När uppgiften är slutförd så skriver du ett blogginlägg på förstasidan om hur du resonerat när du gjort om designen. 
 Lägg in en bild i inlägget som visar sidan i sin "mobila" version.
