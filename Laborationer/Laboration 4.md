@@ -33,7 +33,7 @@ Går man in på sidan med en enhet som har en skärm som identifierar sig om sma
 
 - Du ska skapa en anpassad stilmall för skärmar smalare än 481 pixlar.
 - Samtliga sidor på din laborationsportal ska ha den anpassade stilmallen.
-- Allt innehåll ska vara lika tillgängligt som tidigare. Det är designen som ska göras om. Dock kan du fundera på om visst innehåll ska tonas upp eller ner beroende på om man sitter på en mobil enheter eller inte.
+- Allt innehåll ska vara lika tillgängligt som tidigare. Det är designen som ska göras om. Dock kan du fundera på om visst innehåll ska tonas upp eller ner beroende på om man sitter på en mobil enhet eller inte.
 - Den ordinarie stilmallen ska fortfarande användas om man går in med en enhet bredare än 480px.
 - När användaren surfar in med en smartphone så ska man inte behöva zooma på sidan.
 - Användaren ska inte behöva skrolla i x-led (horisontell skrollning. Dock är det tillåtet för t.ex. tabellen på laborationssidan).
