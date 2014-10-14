@@ -28,16 +28,16 @@ Reprot som ska användas ska vara en fork (se laboration 3) av: [1ik415/Projekts
 
 Nu ska du hämta in det presentationsverktyg som du ska använda. Detta heter [Reveal.js och hittas på GitHub](https://github.com/hakimel/reveal.js). För att hämta hem filerna från Reveal.js till ditt repro skriver du i terminalen:
 
-´git pull https://github.com/hakimel/reveal.js.git´
+`git pull https://github.com/hakimel/reveal.js.git`
 
 Observera att du nu kommer att få en konflikt. Detta beror på att både ditt forkade repro och Reveal.js har en .gitignore-fil och du blir nu ombedd att åtgärda konflikten. Gör så här:
 * Välj att visa "hidden files" i C9. (Kugghjulet ovanför fillistningen)
-* Öppna ´.gitignore´
-* Ta bort de rader som inleds med ´<<<<<<<´ och ´>>>>>>>´ samt ´=======´. (Dessa har git lagt in för att markera vad som tillhör oss, och vad som tillhör Reveal.js. I detta fall vill vi ha kvar både våra och deras kod.)
+* Öppna `.gitignore`
+* Ta bort de rader som inleds med `<<<<<<<` och `>>>>>>>` samt `=======`. (Dessa har git lagt in för att markera vad som tillhör oss, och vad som tillhör Reveal.js. I detta fall vill vi ha kvar både våra och deras kod.)
 * Spara
-* Lägg till filerna för nästa commit ´git add .´
-* Gör en commit: ´git commit -m "Adding reveal.js"´
-* ´git push´ för att trycka till ditt repro på GH.
+* Lägg till filerna för nästa commit `git add .`
+* Gör en commit: `git commit -m "Adding reveal.js"`
+* `git push` för att trycka till ditt repro på GH.
 
 Nu kan du börja arbeta som vanligt med kontinuerliga commits. Reveal.js är relativt självinstruerade. Du hittar en bra start i README.md. Du behöver inte bry dig om det som står efter rubriken "API" om du inte vill. Detta är lite överkurs.
 
