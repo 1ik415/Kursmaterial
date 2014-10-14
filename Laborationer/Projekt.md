@@ -33,6 +33,7 @@ Nu ska du hämta in det presentationsverktyg som du ska använda. Detta heter [R
 `git pull https://github.com/hakimel/reveal.js.git`
 
 Observera att du nu kommer att få en konflikt. Detta beror på att både ditt forkade repro och Reveal.js har en .gitignore-fil och du blir nu ombedd att åtgärda konflikten. Gör så här:
+
 * Välj att visa "hidden files" i C9. (Kugghjulet ovanför fillistningen)
 * Öppna `.gitignore`
 * Ta bort de rader som inleds med `<<<<<<<` och `>>>>>>>` samt `=======`. (Dessa har git lagt in för att markera vad som tillhör oss, och vad som tillhör Reveal.js. I detta fall vill vi ha kvar både våra och deras kod.)
