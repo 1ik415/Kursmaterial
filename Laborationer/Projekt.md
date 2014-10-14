@@ -8,18 +8,20 @@ Uppgiften går ut på att du ska ta fram en presentation inom ett ämne som är 
 Presentationen ska vara mellan 6-10 minuter lång vilket gör att det kan vara smart att välje ett ganskas smalt ämne eftersom tiden är knapp.
 
 Exempel på ämnen skulle kunna vara:
-- Hur utfomrar man bra alt-texter till bilder?
-- Presentation av semantic grid system
-- Hur fungerar CSS tabell-layout?
-- Vad är en Static Site Generators?
-- article-taggen i HTML5, en djupdykning
-- ...
+
+* Hur utfomrar man bra alt-texter till bilder?
+* Presentation av semantic grid system
+* Hur fungerar CSS tabell-layout?
+* Vad är en Static Site Generators?
+* article-taggen i HTML5, en djupdykning
+* ...
 
 ## Krav:
-- Ämnet ska ha relevans för kursen. Är du osäker? Stäm av med kursansvarig genom att ställa en fråga i kursens diskussionsgrupp.
-- Använd anvisat presentationsverktyg. (Vill du testa något annat verktyg så stäm av med kursansvarig)
 
-### GitHub-repro och Reveal.js
+* Ämnet ska ha relevans för kursen. Är du osäker? Stäm av med kursansvarig genom att ställa en fråga i kursens diskussionsgrupp.
+* Använd anvisat presentationsverktyg. (Vill du testa något annat verktyg så stäm av med kursansvarig)
+
+## GitHub-repro och Reveal.js
 Presentationen skapar du i ett nytt repository på GitHub. 
 
 Reprot som ska användas ska vara en fork (se laboration 3) av: [1ik415/ProjektskelettHT14](https://github.com/1ik415/ProjektskelettHT14)
